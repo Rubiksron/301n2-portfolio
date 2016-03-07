@@ -9,7 +9,7 @@ body {
   border-radius: 5px;
   margin: .5%;
   max-width: 99%;
-  max-height: 1%;
+  /*max-height: 50%;*/
 }
 h1 {
   position: absolute;
