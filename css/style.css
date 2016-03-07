@@ -1,0 +1,56 @@
+body {
+  background-color: #CDAD7E;
+}
+.mountains {
+  border-radius: 5px;
+  margin: .5%;
+  max-width: 99%;
+  max-height: 1%;
+}
+.mainContainer {
+  display: flex;
+  margin: .5%;
+  border-radius: 5px;
+  justify-content: space-around;
+  flex-direction: row;
+  max-width: 100%;
+  background-color: #A6902A;
+}
+.navBarItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #A68E75;
+  margin: 1%;
+  color: #A68E75;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+.linksContainer {
+  display: flex;
+  margin: .5%;
+  border-radius: 5px;
+  justify-content: space-around;
+  flex-direction: row;
+  max-width: 100%;
+  background-color: #A6902A;
+}
+.linksDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #A68E75;
+  margin: 1%;
+  width: 80%;
+  height: 50px;
+  background-color: black;
+}
+/*.instaLogo {
+  max-width: 6%;
+  max-height: 6%;
+}*/
