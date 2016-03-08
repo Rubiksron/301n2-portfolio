@@ -2,26 +2,38 @@ body {
   background-color: #CDAD7E;
 }
 .imageDiv {
-  position: relative;
+  background: url("../images/rsz_background_image_portfolio.jpg") no-repeat;
+  height: 100vh;
   width: 100%;
+  border-radius: 5px;
+}
+.flexBox,
+.links {
+  padding-right: 30px;
+  text-align: right;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.name {
+  padding-left: 30px;
+  justify-content: center;
+  color: beige;
+  -webkit-flex: initial;
+  flex: initial;
+  width: 200px;
 }
 .mountainsImage {
   border-radius: 5px;
   margin: .5%;
   max-width: 99%;
-  /*max-height: 50%;*/
 }
-h1 {
-  position: absolute;
-  top: 5%;
-  left: 0;
-  margin: 2%;
-  width: 100%;
-  color: beige;
+.nameLinksContainer {
+  display: flex;
+  flex: 1;
 }
 .navContainer {
   display: flex;
-  margin: .5%;
+  margin-bottom: 10px;
   border-radius: 5px;
   justify-content: space-around;
   flex-direction: row;
@@ -37,45 +49,53 @@ h1 {
   border: solid 5px;
   color: #A68E75;
   margin: 1%;
-  color: #A68E75;
   width: 100%;
-  height: 8%;
   background-color: black;
 }
 .gitLogo {
-  max-width: 4.5%;
-  max-height: 4.5%;
+  width: 50px;
   border-radius: 50%;
 }
 .instaLogo {
   justify-content: center;
   align-items: center;
-  max-width: 4%;
-  max-height: 4%;
+  width: 50px;
   border-radius: 20%;
 }
 .twitterLogo {
-  max-width: 4.5%;
-  max-height: 4.5%;
+  width: 50px;
 }
 .linkedInLogo {
-  max-width: 4.5%;
-  max-height: 4.5%;
+  width: 50px;
   border-radius: 4%;
 }
-.instaLogo:hover, .instaLogo:focus, .instaLogo:active {
+.instaLogo:hover,
+.instaLogo:focus,
+.instaLogo:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-.twitterLogo:hover, .twitterLogo:focus, .twitterLogo:active {
+.twitterLogo:hover,
+.twitterLogo:focus,
+.twitterLogo:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-.linkedInLogo:hover, .linkedInLogo:focus, .linkedInLogo:active {
+.linkedInLogo:hover,
+.linkedInLogo:focus,
+.linkedInLogo:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-.gitLogo:hover, .gitLogo:focus, .gitLogo:active {
+.gitLogo:hover,
+.gitLogo:focus,
+.gitLogo:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+  #nav1:hover,
+  #nav1:focus,
+  #nav1:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
