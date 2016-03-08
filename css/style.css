@@ -96,6 +96,18 @@ body {
   #nav1:hover,
   #nav1:focus,
   #nav1:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+  }
+  #nav2:hover,
+  #nav2:focus,
+  #nav2:active {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+  }
+  #nav3:hover,
+  #nav3:focus,
+  #nav3:active {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
   }
