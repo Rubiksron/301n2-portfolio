@@ -1,9 +1,10 @@
 body {
+  padding: 20px;
   background-color: #CDAD7E;
 }
 .imageDiv {
   background: url("../images/rsz_background_image_portfolio.jpg") no-repeat;
-  height: 100vh;
+  height: 150vh;
   width: 100%;
   border-radius: 5px;
 }
