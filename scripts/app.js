@@ -1,9 +1,18 @@
+$('#nav1').hover(function(){
+  $('.hiddenDiv1').fadeIn();
+},function(){
+  $('.hiddenDiv1').hide();
+});
 
-$(document).ready(function(){
-  $('button').hover(function(){
-    $('p').hide(1000);
-$('button').hover(function(){
-  $('button').show(1000);
-  });
-  });
- });
+$('#nav2').hover(function(){
+  $('.hiddenDiv2').fadeIn();
+});
+$('.button2').click(function(){
+  $('.hiddenDiv2').hide();
+});
+
+$('#nav3').hover(function(){
+  $('.hiddenDiv3').fadeIn();
+},function(){
+  $('.hiddenDiv3').hide();
+});
