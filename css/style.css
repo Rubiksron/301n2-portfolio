@@ -12,7 +12,7 @@
   justify-content: center;
 }
 .hiddenDiv1 {
-  align-self: flex-start;
+  margin-right: 50px;
   text-align: center;
   background: #87781D;
   width: 500px;
@@ -54,12 +54,14 @@ body {
   flex: 1;
 }
 .links {
+  padding-top: 40px;
   padding-right: 30px;
   text-align: right;
   -webkit-flex: 1;
   flex: 1;
 }
 .name {
+  font-size: 25px;
   padding-left: 30px;
   justify-content: center;
   color: beige;

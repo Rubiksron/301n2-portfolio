@@ -4,15 +4,15 @@ $('#nav1').hover(function(){
   $('.hiddenDiv1').hide();
 });
 
-$('#nav2').hover(function(){
-  $('.hiddenDiv2').fadeIn();
-});
-$('.button2').click(function(){
-  $('.hiddenDiv2').hide();
-});
-
 $('#nav3').hover(function(){
   $('.hiddenDiv3').fadeIn();
-},function(){
+});
+$('.button3').click(function(){
   $('.hiddenDiv3').hide();
+});
+
+$('#nav2').hover(function(){
+  $('.hiddenDiv2').fadeIn();
+},function(){
+  $('.hiddenDiv2').hide();
 });
