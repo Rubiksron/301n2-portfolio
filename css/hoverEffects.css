@@ -1,0 +1,66 @@
+.instaLogo:hover,
+.instaLogo:focus,
+.instaLogo:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.twitterLogo:hover,
+.twitterLogo:focus,
+.twitterLogo:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.linkedInLogo:hover,
+.linkedInLogo:focus,
+.linkedInLogo:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.gitLogo:hover,
+.gitLogo:focus,
+.gitLogo:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+  #nav1:hover,
+  #nav1:focus,
+  #nav1:active {
+    -webkit-transform: scale(.99);
+    transform: scale(.99);
+         color: #B4BBCC;
+  }
+  #nav2:hover,
+  #nav2:focus,
+  #nav2:active {
+    -webkit-transform: scale(.99);
+    transform: scale(.99);
+        color: #E1EAFF;
+  }
+  #nav3:hover,
+  #nav3:focus,
+  #nav3:active {
+    -webkit-transform: scale(.99);
+    transform: scale(.99);
+        color: #F1FFFF;
+  }
+  .campfireCoffee:hover,
+  .campfireCoffee:focus,
+  .campfireCoffee:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+        color: #DBDBDB;
+  }
+  .guac-a-mole:hover,
+  .guac-a-mole:focus,
+  .guac-a-mole:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+        color: #DBDBDB;
+  }
+  .busMall:hover,
+  .busMall:focus,
+  .busMall:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+        color: #DBDBDB;
+  }
