@@ -3,46 +3,71 @@
   width:100px;
   height: 30px;
   border-radius: 10px;
-  margin: 4px;
+  margin: 5px;
   color: #DBDBDB;
   background-color: grey;
 }
 .hiddenDivContainer {
+  margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   justify-content: center;
 }
 .hiddenDiv1 {
-  margin-right: 50px;
+  box-shadow: 0px 5px 5px 5px #AFB4DA;
   text-align: center;
-  background: #87781D;
-  width: 500px;
-  height: 500px;
+  background: #B4BBCC;
+  width: 100%;
   border-radius: 5px;
+  padding: 3px;
 }
 .hiddenDiv2 {
+  box-shadow: 0px 5px 5px 5px #AFB4DA;
   text-align: center;
-  background: #D9A257;
-  width: 500px;
-  height: 500px;
+  background: #E1EAFF;
+  width: 100%;
   border-radius: 5px;
+  padding: 3px;
 }
 .hiddenDiv3 {
+  box-shadow: 0px 5px 5px 5px #AFB4DA;
   text-align: center;
-  background: #DBDBDB;
-  width: 500px;
-  height: 500px;
+  background: #F1FFFF;
+  width: 100%;
   border-radius: 5px;
+  padding: 3px;
 }
-
+.campfireCoffee {
+  border-radius: 5px;
+  margin: 10px;
+  width: 250px;
+  height: 150px;
+}
+.guac-a-mole {
+  border-radius: 5px;
+  margin: 10px;
+  width: 250px;
+  height: 150px;
+}
+.busMall {
+  border-radius: 5px;
+  margin: 10px;
+  width: 250px;
+  height: 150px;
+}
+.divTitle {
+  font-size: 40px;
+}
 body {
   padding: 20px;
-  background-color: #CDAD7E;
+  background-color: #1B1B25;
 }
 .imageDiv {
-  background: url("../images/rsz_background_image_portfolio.jpg") no-repeat;
+  background: url("../images/seattle-background-resize.jpg") no-repeat;
   height: 150vh;
   width: 100%;
   border-radius: 5px;
+  padding-top: 10px;
 }
 .nameLinksContainer {
   display: flex;
@@ -63,13 +88,13 @@ body {
 .name {
   font-size: 25px;
   padding-left: 30px;
-  justify-content: center;
+  /*justify-content: center;*/
   color: beige;
-  -webkit-flex: initial;
-  flex: initial;
+  -webkit-flex: 1;
+  flex: 1;
   width: 200px;
 }
-.mountainsImage {
+.backgroundImage {
   border-radius: 5px;
   margin: .5%;
   max-width: 99%;
@@ -81,19 +106,18 @@ body {
   justify-content: space-around;
   flex-direction: row;
   max-width: 100%;
-  background-color: #433931;
+  background-color: #404666;
 }
 .navBarItems {
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  border-color: #594B43;
   border: solid 5px;
-  color: #A68E75;
+  color: #D9CEC6;
   margin: 1%;
   width: 100%;
-  background-color: black;
+  background-color: #1B1B25;
 }
 .gitLogo {
   margin: 2px;
@@ -145,19 +169,40 @@ body {
   #nav1:active {
     -webkit-transform: scale(.99);
     transform: scale(.99);
-         color: #87781D;
+         color: #B4BBCC;
   }
   #nav2:hover,
   #nav2:focus,
   #nav2:active {
     -webkit-transform: scale(.99);
     transform: scale(.99);
-        color: #D9A257;
+        color: #E1EAFF;
   }
   #nav3:hover,
   #nav3:focus,
   #nav3:active {
     -webkit-transform: scale(.99);
     transform: scale(.99);
+        color: #F1FFFF;
+  }
+  .campfireCoffee:hover,
+  .campfireCoffee:focus,
+  .campfireCoffee:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+        color: #DBDBDB;
+  }
+  .guac-a-mole:hover,
+  .guac-a-mole:focus,
+  .guac-a-mole:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+        color: #DBDBDB;
+  }
+  .busMall:hover,
+  .busMall:focus,
+  .busMall:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
         color: #DBDBDB;
   }
