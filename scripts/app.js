@@ -21,10 +21,14 @@ $('#nav2').hover(function(){
 $('#nav3').hover(function(){
   $('.links').hide();
   $('.name').hide();
+  $('#nav1').hide();
+  $('#nav2').hide();
   $('.hiddenDiv3').fadeIn();
 });
 $('.button3').click(function(){
   $('.hiddenDiv3').hide();
   $('.name').show();
   $('.links').show();
+  $('#nav1').show();
+  $('#nav2').show();
 });
