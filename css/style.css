@@ -46,7 +46,7 @@ h2 {
   padding-right: 30px;
   text-align: right;
   -webkit-flex: 1;
-  flex: 1;
+  flex: 0;
 }
 .flexBox {
   text-align: right;

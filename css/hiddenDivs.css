@@ -6,7 +6,7 @@
   text-align: center;
 }
 .button3 {
-  width:100px;
+  width:80px;
   height: 30px;
   border-radius: 10px;
   margin: 5px;
@@ -14,7 +14,7 @@
   background-color: #1B1B25;
 }
 .button2 {
-  width:100px;
+  width:80px;
   height: 30px;
   border-radius: 10px;
   margin: 5px;
@@ -37,7 +37,7 @@
 }
 .hiddenDiv2 {
   box-shadow: 0px 5px 5px 5px #1B1B25;
-  text-align: left;
+  text-align: center;;
   background: #E1EAFF;
   width: 80%;
   border-radius: 5px;
