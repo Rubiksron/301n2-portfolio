@@ -11,11 +11,16 @@ $('#nav1').hover(function(){
 $('#nav2').hover(function(){
   $('.links').hide();
   $('.name').hide();
+  $('#nav1').hide();
+  $('#nav3').hide();
   $('.hiddenDiv2').fadeIn();
-},function(){
+});
+$('.button2').click(function(){
   $('.hiddenDiv2').hide();
   $('.name').show();
   $('.links').show();
+  $('#nav1').show();
+  $('#nav3').show();
 });
 
 $('#nav3').hover(function(){
@@ -23,6 +28,7 @@ $('#nav3').hover(function(){
   $('.name').hide();
   $('#nav1').hide();
   $('#nav2').hide();
+  $('.footerTextDiv').hide();
   $('.hiddenDiv3').fadeIn();
 });
 $('.button3').click(function(){
@@ -31,4 +37,5 @@ $('.button3').click(function(){
   $('.links').show();
   $('#nav1').show();
   $('#nav2').show();
+  $('.footerTextDiv').show();
 });

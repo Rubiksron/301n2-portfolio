@@ -1,5 +1,12 @@
 
 
+.dataTable:hover,
+.dataTable:focus,
+.dataTable:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .email:hover,
 .email:focus,
 .email:active {
