@@ -1,3 +1,33 @@
+
+.button2:hover,
+.button2:focus,
+.button2:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #DBDBDB;
+}
+
+.button3:hover,
+.button3:focus,
+.button3:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #DBDBDB;
+}
+.laurensLink:hover,
+.laurensLink:focus,
+.laurensLink:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: grey;
+}
+.contactsLinks:hover,
+.contactsLinks:focus,
+.contactsLinks:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: grey;
+}
 .instaLogo:hover,
 .instaLogo:focus,
 .instaLogo:active {
