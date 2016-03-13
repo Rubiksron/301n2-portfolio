@@ -27,7 +27,7 @@
 .email:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  color: #DBDBDB;
+  color: grey;
 }
 .button2:hover,
 .button2:focus,
