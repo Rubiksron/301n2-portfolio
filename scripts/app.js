@@ -7,6 +7,7 @@ $('#videoButton').click(function(){
   $('.hiddenDiv3').hide();
   $('iframe').show();
   $('#videoCloseButton').show();
+  $('#nav3').hide();
 });
 
 $('#videoCloseButton').click(function(){
