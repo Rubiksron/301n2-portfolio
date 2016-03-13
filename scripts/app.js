@@ -1,3 +1,25 @@
+
+$(document).ready(function(){
+  $('iframe').hide();
+  $('#videoCloseButton').hide();
+});
+$('#videoButton').click(function(){
+  $('.hiddenDiv3').hide();
+  $('iframe').show();
+  $('#videoCloseButton').show();
+});
+
+$('#videoCloseButton').click(function(){
+  $('iframe').hide();
+  $('#videoCloseButton').hide();
+  $('#nav1').show();
+  $('#nav2').show();
+  $('#nav3').show();
+  $('.name').show();
+  $('.links').show();
+  $('.footerTextDiv').show();
+});
+
 $('#nav1').hover(function(){
   $('.links').hide();
   $('.name').hide();
