@@ -14,6 +14,23 @@
   color: #B4BBCC;;
   background-color: #1B1B25;
 }
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+   position: absolute;
+   top: 0;
+   left: 13%;
+   width: 75%;
+   height: 75%;
+}
+
 .button3div {
   text-align: center;
 }
@@ -46,7 +63,7 @@
   box-shadow: 0px 5px 5px 5px #1B1B25;
   text-align:left;
   background: #B4BBCC;
-  width: 80%;
+  width: 60%;
   border-radius: 5px;
   padding: 10px;
 }
@@ -62,7 +79,7 @@
   box-shadow: 0px 5px 5px 5px #1B1B25;
   text-align: left;
   background: #F1FFFF;
-  width: 80%;
+  width: 100%;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
