@@ -1,14 +1,38 @@
 
 $(document).ready(function(){
-  $('iframe').hide();
+  $('.iframe1').hide();
   $('#videoCloseButton').hide();
 });
 $('#videoButton').click(function(){
   $('.hiddenDiv3').hide();
-  $('iframe').show();
+  $('.iframe1').show();
   $('#videoCloseButton').show();
   $('#nav3').hide();
 });
+
+$(document).ready(function(){
+  $('.iframe2').hide();
+  $('#videoCloseButton').hide();
+});
+$('#videoButton2').click(function(){
+  $('.hiddenDiv3').hide();
+  $('.iframe2').show();
+  $('#videoCloseButton').show();
+  $('#nav3').hide();
+});
+
+$(document).ready(function(){
+  $('.iframe3').hide();
+  $('#videoCloseButton').hide();
+});
+$('#videoButton3').click(function(){
+  $('.hiddenDiv3').hide();
+  $('.iframe3').show();
+  $('#videoCloseButton').show();
+  $('#nav3').hide();
+});
+
+
 
 $('#videoCloseButton').click(function(){
   $('iframe').hide();
