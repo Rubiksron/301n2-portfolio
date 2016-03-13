@@ -1,6 +1,23 @@
 
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+   position: absolute;
+   top: 10%;
+   left: 25%;
+   width: 50%;
+   height: 50%;
+}
 body {
-  padding: 20px;
+  padding: 25px;
   background-color: #1B1B25;
 }
 footer {
@@ -48,6 +65,7 @@ footer {
   padding-top: 10px;
 }
 .nameLinksContainer {
+  /*height: 200px;*/
   display: flex;
   flex: 1;
 }
@@ -59,11 +77,13 @@ footer {
   flex: 0;
 }
 .flexBox {
+  /*height: 200px;*/
   text-align: right;
   -webkit-flex: 1;
   flex: 1;
 }
 .name {
+  /*height: 200px;*/
   font-size: 25px;
   padding-left: 30px;
   color: beige;

@@ -1,4 +1,19 @@
 
+#videoCloseButton:hover,
+#videoCloseButton:focus,
+#videoCloseButton:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #DBDBDB;
+}
+
+#videoButton:hover,
+#videoButton:focus,
+#videoButton:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #DBDBDB;
+}
 
 .dataTable:hover,
 .dataTable:focus,

@@ -1,4 +1,19 @@
-
+#videoCloseButton {
+  width:80px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 5px;
+  color: #B4BBCC;;
+  background-color: #1B1B25;
+}
+#videoButton {
+  width:80px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 5px;
+  color: #B4BBCC;;
+  background-color: #1B1B25;
+}
 .button3div {
   text-align: center;
 }
