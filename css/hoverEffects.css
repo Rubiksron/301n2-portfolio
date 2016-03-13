@@ -14,7 +14,20 @@
   transform: scale(1.1);
   color: #DBDBDB;
 }
-
+#videoButton2:hover,
+#videoButton2:focus,
+#videoButton2:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #DBDBDB;
+}
+#videoButton3:hover,
+#videoButton3:focus,
+#videoButton3:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #DBDBDB;
+}
 .dataTable:hover,
 .dataTable:focus,
 .dataTable:active {
