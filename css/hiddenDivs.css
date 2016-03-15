@@ -80,6 +80,7 @@
   padding: 1.25em;
   background: #rgba(255, 234, 255, 0);;
   box-shadow: 0em .25em .25em .25em #1B1B25;
+  margin-left: 2em;
 }
 .h4AboutMe {
   text-align: center;
@@ -108,11 +109,12 @@
   background: rgba(255, 234, 255, 0);
   width: 100%;
   border-radius: .65em;
-  padding: 1em;
 }
 .divTitleContactInside {
   text-align: center;
   padding: .5em;
+  margin-right: 2.5em;
+  margin-left: 2.5em;
   margin-bottom: 1.25em;
   margin-top: 1.25em;
   border-radius: 1em;
@@ -134,9 +136,9 @@
   border-radius: 1em;
   background-color: #B4BBCC;
   margin-top: 1.25em;
-  margin-left: 3.75em;
-  margin-right: 3.75em;
   margin-bottom: 1.25em;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
   box-shadow: 0em .25em .25em .25em grey;
 }
 
@@ -191,20 +193,19 @@
   box-shadow: 0em .25em .25em .25em grey;
 }
 .projectLinksContainer {
-  padding: .5em;
   border-radius: .65em;
   margin-bottom: 1.25em;
   background-color: #E1EAFF;
   box-shadow: 0em .25em .25em .25em grey;
 }
 .projectLinksContainer img {
-  border-radius: 5px;
+  border-radius: .5em;
   margin: 1em;
-  width: 250px;
-  height: 150px;
+  width: 15em;
+  height: 9em;
   box-shadow: 0em .25em .25em .25em grey;
 }
-@media (max-width: 400px) {
+/*@media (max-width: 360px) {
   .hiddenDiv3 {
     text-align: center;
     padding: .5em;
@@ -225,4 +226,9 @@
     margin-bottom: 1.25em;
     box-shadow: 0em .25em .25em .25em grey;
   }
+}*/
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
 }

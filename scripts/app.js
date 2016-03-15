@@ -48,11 +48,13 @@ $('#videoCloseButton').click(function(){
 $('#nav1').hover(function(){
   $('.links').hide();
   $('.name').hide();
+  $('.footerTextDiv').hide();
   $('.hiddenDiv1').fadeIn();
 },function(){
   $('.hiddenDiv1').hide();
   $('.name').show();
   $('.links').show();
+  $('.footerTextDiv').show();
 });
 
 $('#nav2').hover(function(){
