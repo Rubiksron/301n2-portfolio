@@ -1,28 +1,30 @@
 
 body {
-  padding: 20px;
+  padding: 1.25em;
   background-color: #1B1B25;
   font-family: 'merriweather';
   /*font-family: 'marcellus';*/
 }
 footer {
   display: flex;
-  margin-top: 10px;
-  border-radius: 5px;
+  padding: .5em;
+  margin-top: 1.25em;
+  border-radius: 1.25em;
   justify-content: center;;
   max-width: 100%;
   background-color: #404666;
 }
 .footerTextDiv {
-  height: 65px;
+  height: 8em;
   text-align: center;
   width: 100%;
   color: #DBDBDB;
 }
 .navContainer {
   display: flex;
-  margin-bottom: 10px;
-  border-radius: 5px;
+  padding: .5em;
+  margin-bottom: 1.25em;
+  border-radius: 1.25em;
   justify-content: space-around;
   flex-direction: row;
   max-width: 100%;
@@ -32,30 +34,30 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 5px;
-  border: solid 5px;
+  border-radius: 1.25em;
+  border: solid .5em;
   color: #D9CEC6;
   margin: 1%;
   width: 100%;
   background-color: #1B1B25;
 }
 .divTitle {
-  font-size: 40px;
+  font-size: 2.5em;
 }
 .imageDiv {
   background: url("../images/seattle-background-resize.jpg") no-repeat;
   height: 125vh;
   width: 100%;
-  border-radius: 5px;
-  padding-top: 10px;
+  border-radius: 1.25em;
+  padding-top: 1.25em;
 }
 .nameLinksContainer {
   display: flex;
   flex: 1;
 }
 .links {
-  padding-top: 40px;
-  padding-right: 30px;
+  padding-top: 2.5em;
+  padding-right: 3.75em;
   text-align: right;
   -webkit-flex: 1;
   flex: 0;
@@ -66,36 +68,36 @@ footer {
   flex: 1;
 }
 .name {
-  font-size: 25px;
-  padding-left: 30px;
+  font-size: 1.563em;
+  padding-left: 3.75em;
   color: beige;
   -webkit-flex: 1;
   flex: 1;
-  width: 200px;
+  width: 25em;
 }
 .backgroundImage {
-  border-radius: 5px;
+  border-radius: 1.25em;
   margin: .5%;
   max-width: 99%;
 }
 .gitLogo {
-  margin: 2px;
-  width: 50px;
+  margin: .25em;
+  width: 3.25em;
   border-radius: 50%;
 }
 .instaLogo {
-  margin: 2px;
+  margin: .25em;
   justify-content: center;
   align-items: center;
-  width: 50px;
+  width: 3.25em;
   border-radius: 20%;
 }
 .twitterLogo {
-  margin: 2px;
-  width: 50px;
+  margin: .25em;
+  width: 3.25em;
 }
 .linkedInLogo {
-  margin: 2px;
-  width: 50px;
+  margin: .25em;
+  width: 3.25em;
   border-radius: 4%;
 }
