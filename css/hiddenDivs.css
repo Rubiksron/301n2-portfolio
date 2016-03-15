@@ -1,32 +1,32 @@
 #videoCloseButton {
-  width:80px;
-  height: 30px;
-  border-radius: 10px;
-  margin: 75px;
-  color: #B4BBCC;;
+  width:5em;
+  height: 3.75em;
+  border-radius: .65em;
+  margin: 5em;
+  color: #B4BBCC;
   background-color: #1B1B25;
 }
 #videoButton {
-  width:80px;
-  height: 30px;
-  border-radius: 10px;
-  margin: 5px;
+  width:5em;
+  height: 3.75em;
+  border-radius: .65em;
+  margin: .25em;
   color: #B4BBCC;;
   background-color: #1B1B25;
 }
 #videoButton2 {
-  width:80px;
-  height: 30px;
-  border-radius: 10px;
-  margin: 5px;
+  width:5em;
+  height: 3.75em;
+  border-radius: .65em;
+  margin: .25em;
   color: #B4BBCC;;
   background-color: #1B1B25;
 }
 #videoButton3 {
-  width:80px;
-  height: 30px;
-  border-radius: 10px;
-  margin: 5px;
+  width:5em;
+  height: 3.75em;
+  border-radius: .65em;
+  margin: .25em;
   color: #B4BBCC;;
   background-color: #1B1B25;
 }
@@ -45,14 +45,14 @@
    left: 13%;
    width: 75%;
    height: 75%;
-   box-shadow: 0px 3px 3px 3px #F1FFFF;
+   box-shadow: 0em .25em .25em .25em #F1FFFF;
 }
 
 .button3 {
-  width:80px;
-  height: 30px;
-  border-radius: 10px;
-  margin: 5px;
+  width:5em;
+  height: 3.75em;
+  border-radius: .65em;
+  margin: .25em;
   color: #B4BBCC;;
   background-color: #1B1B25;
 }
@@ -60,170 +60,169 @@
   text-align: center;
 }
 .button2 {
-  width:80px;
-  height: 30px;
-  border-radius: 10px;
-  margin: 5px;
+  width:5em;
+  height: 3.75em;
+  border-radius: .65em;
+  margin: .25em;
   color: #B4BBCC;;
   background-color: #1B1B25;
 }
 .hiddenDivContainer {
-  margin-left: 10px;
-  margin-right: 10px;
   display: flex;
   justify-content: center;
+  margin-left: .65em;
+  margin-right: .65em;
 }
 .hiddenDiv1 {
-  box-shadow: 0px 5px 5px 5px #1B1B25;
   text-align:left;
-  background: #rgba(255, 234, 255, 0);;
   width: 60%;
-  border-radius: 10px;
-  padding: 15px;
-}
-.hiddenDiv2 {
-  box-shadow: 0px 5px 5px 5px #1B1B25;
-  text-align: center;;
-  background: rgba(255, 234, 255, 0);
-  width: 80%;
-  border-radius: 10px;
-  padding: 15px;
-}
-.hiddenDiv3 {
-  box-shadow: 0px 5px 5px 5px #1B1B25;
-  text-align: left;
-  background: rgba(255, 234, 255, 0);
-  width: 100%;
-  border-radius: 10px;
-  padding: 15px;
-  margin-bottom: 10px;
+  border-radius: .65em;
+  padding: 1.25em;
+  background: #rgba(255, 234, 255, 0);;
+  box-shadow: 0em .25em .25em .25em #1B1B25;
 }
 .h4AboutMe {
   text-align: center;
-  border-radius: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding: 7px;
-  margin-top: 10px;
+  border-radius: .65em;
+  margin-left: .25em;
+  margin-right: .25em;
+  padding: .5em;
+  margin-top: .65em;
   background: #B4BBCC;
-  box-shadow: 0px 3px 3px 3px grey;
+  box-shadow: 0em .25em .25em .25em grey;
 }
 .divTitleAboutMe {
   text-align: center;
-  border-radius: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  padding: 2px;
+  border-radius: .65em;
+  margin-left: .65em;
+  margin-right: .65em;
+  margin-top: .65em;
+  margin-bottom: 1.25em;
+  padding: .25em;
   background: #B4BBCC;
-  box-shadow: 0px 3px 3px 3px grey;
+  box-shadow: 0em .25em .25em .25em grey;
 }
-
+.hiddenDiv2 {
+  box-shadow: 0em .25em .25em .25em #1B1B25;
+  text-align: center;
+  background: rgba(255, 234, 255, 0);
+  width: 100%;
+  border-radius: .65em;
+  padding: 1em;
+}
 .divTitleContactInside {
   text-align: center;
-  padding: 7px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  border-radius: 15px;
+  padding: .5em;
+  margin-bottom: 1.25em;
+  margin-top: 1.25em;
+  border-radius: 1em;
   background-color: #B4BBCC;
-  box-shadow: 0px 3px 3px 3px grey;
+  box-shadow: 0em .25em .25em .25em grey;
 }
 
-.divTitleContact {
+/*.divTitleContact {
   text-align: center;
-  border-radius: 15px;
+  border-radius: 1em;
   margin-left: 50px;
   margin-right: 50px;
   background: rgba(255, 234, 255, 0);
-  box-shadow: 0px 3px 3px 3px grey;
-}
+  box-shadow: 0px .25em .25em .25em grey;
+}*/
 .contactsContainer {
   text-align: center;
-  padding: 7px;
-  border-radius: 15px;
+  padding: .5em;
+  border-radius: 1em;
   background-color: #B4BBCC;
-  margin-top: 20px;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 20px;
-  box-shadow: 0px 3px 3px 3px grey;
+  margin-top: 1.25em;
+  margin-left: 3.75em;
+  margin-right: 3.75em;
+  margin-bottom: 1.25em;
+  box-shadow: 0em .25em .25em .25em grey;
+}
+
+.hiddenDiv3 {
+  box-shadow: 0em .25em .25em .25em #1B1B25;
+  text-align: left;
+  background: rgba(255, 234, 255, 0);
+  width: 80%;
+  border-radius: .65em;
+  margin-bottom: .65em;
+  padding: 1em;
 }
 .button3div {
   text-align: center;
-  padding: 7px;
-  border-radius: 10px;
+  padding: .5em;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  border-radius: .65em;
   background-color: #B4BBCC;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 80px;
-  margin-right: 80px;
-  box-shadow: 0px 3px 3px 3px grey;
+  box-shadow: 0em .25em .25em .25em grey;
 }
 .h3DivPortfolio {
-  padding: 25px;
-  border-radius: 10px;
+  justify-content: space-around;
+  padding: 1.5em;
+  border-radius: .65em;
   background-color: #E1EAFF;
-  margin-bottom: 20px;
-  box-shadow: 0px 3px 3px 3px grey;
+  margin-bottom: 1.25em;
+  box-shadow: 0em .25em .25em .25em grey;
 }
 .divTitlePortfolio {
   display: flex;
   justify-content: center;
-  align-items: center
-  padding: 7px;
-  border-radius: 10px;
+  padding: .5em;
+  border-radius: .65em;
   background-color: #E1EAFF;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  box-shadow: 0px 3px 3px 3px grey;
+  margin-bottom: 1.25em;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
+  box-shadow: 0em .25em .25em .25em grey;
 }
 
 .pastLifeContainer {
-  margin-top: 20px;
-  border-radius: 10px;
+  margin-top: 1.25em;
+  border-radius: .65em;
   display: flex;
   justify-content: space-around;;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 10px;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  padding: .65em;
   background-color: #B4BBCC;
-  box-shadow: 0px 3px 3px 3px grey;
+  box-shadow: 0em .25em .25em .25em grey;
 }
 .projectLinksContainer {
-  padding: 7px;
-  border-radius: 10px;
-  margin-bottom: 20px;
+  padding: .5em;
+  border-radius: .65em;
+  margin-bottom: 1.25em;
   background-color: #E1EAFF;
-  box-shadow: 0px 3px 3px 3px grey;
+  box-shadow: 0em .25em .25em .25em grey;
 }
-.campfireCoffee {
+.projectLinksContainer img {
   border-radius: 5px;
-  margin: 15px;
+  margin: 1em;
   width: 250px;
   height: 150px;
-  box-shadow: 0px 3px 3px 3px grey;
+  box-shadow: 0em .25em .25em .25em grey;
 }
-.guac-a-mole {
-  border-radius: 5px;
-  margin: 15px;
-  width: 250px;
-  height: 150px;
-  box-shadow: 0px 3px 3px 3px grey;
-}
-.busMall {
-  border-radius: 5px;
-  margin: 15px;
-  width: 250px;
-  height: 150px;
-  box-shadow: 0px 3px 3px 3px grey;
-}
-.dataTable {
-  border-radius: 5px;
-  margin: 15px;
-  width: 250px;
-  height: 150px;
-  box-shadow: 0px 3px 3px 3px grey;
+@media (max-width: 400px) {
+  .hiddenDiv3 {
+    text-align: center;
+    padding: .5em;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    border-radius: .65em;
+    background-color: #B4BBCC;
+    box-shadow: 0em .25em .25em .25em grey;
+  }
+  .contactsContainer {
+    text-align: center;
+    padding: 0em;
+    border-radius: 1em;
+    background-color: #B4BBCC;
+    margin-top: 1.25em;
+    margin-left: .25em;
+    margin-right: .25em;
+    margin-bottom: 1.25em;
+    box-shadow: 0em .25em .25em .25em grey;
+  }
 }
