@@ -1,18 +1,18 @@
 var articles = [];
 
 function Article (projects) {
-  this.author = projects.author;
-  this.authorUrl = projects.authorUrl;
   this.title = projects.title;
   this.category = projects.category;
-  this.body = projects.body;
+  this.author = projects.author;
+  this.authorUrl = projects.authorUrl;
+  this.projectLinksContainer = projects.projectLinksContainer;
 }
 
 Article.prototype.toHtml = function() {
   var theTemplateScript = $('#articles-template').text();
   var theTemplate = Handlebars.compile(theTemplateScript);
   return theTemplate(this);
-  $('article.template').removeClass('template');
+  // $('article.template').removeClass('template');
 };
 
 
