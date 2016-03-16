@@ -26,5 +26,5 @@ var rawData =[
     author: 'Ron Dunphy',
     authorUrl: 'file:///Users/rondunphy/201d5/week-2/campfire-coffee/data.html',
     projectLinksContainer: '  <a href="file:///Users/rondunphy/201d5/week-2/campfire-coffee/data.html"><img class="dataTable" src="images/dataTable.png alt="dataTable"></a>'
-  },
+  }
 ];
