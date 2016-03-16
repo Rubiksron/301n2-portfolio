@@ -7,3 +7,7 @@ function Article (projects) {
   this.category = projects.category;
   this.body = projects.body;
 }
+ Article.prototype.toHtml = function() {
+   var theTemplateScript = $('#articles-template').text();
+   console.log('am i here?', theTemplateScript);
+ }
