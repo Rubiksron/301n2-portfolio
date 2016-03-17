@@ -1,4 +1,4 @@
-  }
+
   img {
     align-items: center;
     max-width: 12em;
@@ -9,6 +9,7 @@
     font-family: 'merriweather';
   }
   footer {
+    box-shadow: 0em .10em .10em .10em grey;
     display: flex;
     margin-top: 1.25em;
     margin-bottom: 1.25em;
@@ -17,71 +18,25 @@
     max-width: 100%;
     background-color: #404666;
   }
+  a:hover,
+  a:focus,
+  a:active {
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+   color: grey;
+ }
   .footerTextDiv {
     text-align: center;
     width: 100%;
     color: #DBDBDB;
   }
-  .navContainer {
-    display: flex;
-    padding: .5em;
-    margin-bottom: 1.25em;
-    border-radius: 1.25em;
-    justify-content: space-around;
-    flex-direction: row;
-    max-width: 100%;
-    background-color: #404666;
-    -webkit-transform: scale(.99);
-    transform: scale(.99);
-    color: #B4BBCC;
-  }
-  .navBarItems {
-    font-size: x-small;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1.25em;
-    border: solid .2em;
-    color: #D9CEC6;
-    margin: 1%;
-    width: 100%;
-    background-color: #1B1B25;
-  }
-  .divTitle {
-    font-size: 1.5em;
-  }
   .imageDiv {
+    box-shadow: 0em .10em .10em .10em grey;
     background: url("../images/seattle-background-resize.jpg") no-repeat;
     height: 125vh;
     width: 100%;
     border-radius: 1.25em;
     padding-top: 1.25em;
-  }
-  .nameLinksContainer {
-    display: flex;
-    flex: 1;
-  }
-  .links {
-    padding-top: 2.5em;
-    padding-right: 1.75em;
-    text-align: right;
-    -webkit-flex: 1;
-    flex: 0;
-  }
-  .flexBox {
-    text-align: right;
-    -webkit-flex: 1;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-  }
-  .name {
-    padding-left: 1em;
-    font-size: 100%;
-    color: beige;
-    -webkit-flex: 1;
-    flex: 1;
-    width: 25em;
   }
   .backgroundImage {
     border-radius: 1.25em;
@@ -89,27 +44,6 @@
     max-width: 99%;
   }
 
-  .gitLogo {
-    margin: .25em;
-    width: 3.25em;
-    border-radius: 50%;
-  }
-  .instaLogo {
-    margin: .25em;
-    justify-content: center;
-    align-items: center;
-    width: 3.25em;
-    border-radius: 20%;
-  }
-  .twitterLogo {
-    margin: .25em;
-    width: 3.25em;
-  }
-  .linkedInLogo {
-    margin: .25em;
-    width: 3.25em;
-    border-radius: 4%;
-  }
   .embed-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -125,172 +59,30 @@
      left: 13%;
      width: 75%;
      height: 75%;
-     box-shadow: 0em .50em .50em .50em #F1FFFF;
+     box-shadow: 0em .25em .25em .25em #F1FFFF;
   }
 
-  .button3 {
-    width:5em;
-    height: 3.75em;
-    border-radius: .65em;
-    margin: .25em;
-    color: #B4BBCC;;
-    background-color: #1B1B25;
+  @media (min-width: 319px) {
+    .projectLinksContainer img {
+      border-radius: .5em;
+      margin: 1.25em;
+      width: 12em;
+      height: 9em;
+      box-shadow: 0em .50em .50em .50em grey;
+    }
   }
-  .button2div {
-    text-align: center;
-    margin-top: 2em;
+  @media (max-width: 374px)  {
+    .projectLinksContainer img {
+      border-radius: .5em;
+      width: 11em;
+      height: 9em;
+      box-shadow: 0em .50em .50em .50em grey;
+    }
+      body {
+        padding: 1em;
+    }
   }
-  .button2 {
-    width:5em;
-    height: 3.75em;
-    border-radius: .65em;
-    margin: .25em;
-    color: #B4BBCC;;
-    background-color: #1B1B25;
-  }
-  .hiddenDivContainer {
-    display: flex;
-    justify-content: center;
-    margin-left: .65em;
-    margin-right: .65em;
-  }
-
-
-  .hiddenDiv1 {
-    text-align:left;
-    width: 60%;
-    border-radius: .65em;
-    padding: 1.25em;
-    background: #rgba(255, 234, 255, 0);
-    box-shadow: 0em .50em .50em .50em #1B1B25;
-  }
-  .h4AboutMe {
-    text-align: center;
-    border-radius: .65em;
-    margin-left: .25em;
-    margin-right: .25em;
-    padding: .5em;
-    margin-top: .65em;
-    background: #B4BBCC;
-    box-shadow: 0em .50em .50em .50em #1B1B25;
-  }
-  .divTitleAboutMe {
-    text-align: center;
-    border-radius: .65em;
-    margin-left: .65em;
-    margin-right: .65em;
-    margin-top: .65em;
-    margin-bottom: 1.25em;
-    padding: .25em;
-    background: #B4BBCC;
-    box-shadow: 0em .50em .50em .50em #1B1B25;
-  }
-
-
-  .hiddenDiv2 {
-    text-align: center;
-    background: rgba(255, 234, 255, 0);
-    border-radius: .65em;
-    margin-right: 2em;
-    margin-left: 1.25em;
-    padding-bottom: 1em;
-    box-shadow: 0em .75em .75em .75em #1B1B25;
-}
-  .divTitleContact {
-    border-radius: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
-  }
-  .divTitleContactInside {
-    text-align: center;
-    padding: .5em;
-    margin-right: 2.5em;
-    margin-left: 2.5em;
-    margin-bottom: 1.25em;
-    margin-top: 1.25em;
-    border-radius: 1em;
-    background-color: #B4BBCC;
-    box-shadow: 0em .50em .50em .50em #1B1B25;
-  }
-  .contactsContainer {
-    text-align: center;
-    padding: .5em;
-    border-radius: 1em;
-    background-color: #B4BBCC;
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
-    margin-left: 1.25em;
-    margin-right: 1.25em;
-    box-shadow: 0em .50em .50em .50em #1B1B25;
-  }
-
-
-  .hiddenDiv3 {
-    text-align: left;
-    background: rgba(255, 234, 255, 0);
-    width: 80%;
-    border-radius: .65em;
-    margin-bottom: .65em;
-    padding: 1em;
-    box-shadow: 0em .50em .50em .50em #1B1B25;
-  }
-  .button3div {
-    text-align: center;
-    padding: .5em;
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
-    border-radius: .65em;
-    background-color: #B4BBCC;
-    margin-left: 4em;
-    margin-right: 4em;
-    box-shadow: 0em .25em .25em .25em #1B1B25;
-  }
-  .h3DivPortfolio {
-    justify-content: space-around;
-    padding: 1.5em;
-    border-radius: .65em;
-    background-color: #E1EAFF;
-    margin-bottom: 1.25em;
-    box-shadow: 0em .50em .50em .50em #1B1B25;
-  }
-  .divTitlePortfolio {
-    display: flex;
-    justify-content: center;
-    padding: .5em;
-    border-radius: .65em;
-    background-color: #E1EAFF;
-    margin-bottom: 1.25em;
-    margin-left: 1.25em;
-    margin-right: 1.25em;
-    box-shadow: 0em .50em .50em .50em #1B1B25;
-  }
-
-  .pastLifeContainer {
-    margin-top: 1.25em;
-    border-radius: .65em;
-    display: flex;
-    justify-content: space-around;;
-    align-items: center;
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
-    padding: .65em;
-    background-color: #B4BBCC;
-    box-shadow: 0em .50em .50em .50em #1B1B25;
-  }
-  .projectLinksContainer {
-    border-radius: .65em;
-    margin-bottom: 1.25em;
-    background-color: #E1EAFF;
-    box-shadow: 0em .50em .50em .50em #1B1B25;
-  }
-  .projectLinksContainer img {
-    border-radius: .5em;
-    margin: 1em;
-    width: 13em;
-    height: 9em;
-    box-shadow: 0em .50em .50em .50em grey;
-  }
-  @media (min-width: 376px) {
+  @media (min-width: 413px) {
     body {
       padding: 2em;
     }
@@ -300,110 +92,22 @@
     .name {
       font-size: x-large;
     }
+    .projectLinksContainer img {
+      max-width: 90%;
+      border-radius: .5em;
+      margin: 1em;
+      /*width: 90%;*/
+      height: 9em;
+      box-shadow: 0em .50em .50em .50em grey;
+    }
   }
 
-
-
-
-  #videoCloseButton {
-    width:5em;
-    height: 3.75em;
-    border-radius: .65em;
-    margin: 5em;
-    color: #B4BBCC;
-    background-color: #1B1B25;
-  }
-  #videoCloseButton:hover,
-  #videoCloseButton:focus,
-  #videoCloseButton:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: #DBDBDB;
-  }
-  #videoButton:hover,
-  #videoButton:focus,
-  #videoButton:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: #DBDBDB;
-  }
-  #videoButton2:hover,
-  #videoButton2:focus,
-  #videoButton2:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: #DBDBDB;
-  }
-  #videoButton3:hover,
-  #videoButton3:focus,
-  #videoButton3:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: #DBDBDB;
-  }
-  .email:hover,
-  .email:focus,
-  .email:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: grey;
-  }
-  .button2:hover,
-  .button2:focus,
-  .button2:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: #DBDBDB;
-  }
-  .button3:hover,
-  .button3:focus,
-  .button3:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: #DBDBDB;
-  }
-  .laurensLink:hover,
-  .laurensLink:focus,
-  .laurensLink:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: grey;
-  }
-  .contactsLinks:hover,
-  .contactsLinks:focus,
-  .contactsLinks:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: grey;
-  }
-  .instaLogo:hover,
-  .instaLogo:focus,
-  .instaLogo:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  .twitterLogo:hover,
-  .twitterLogo:focus,
-  .twitterLogo:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  .linkedInLogo:hover,
-  .linkedInLogo:focus,
-  .linkedInLogo:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  .gitLogo:hover,
-  .gitLogo:focus,
-  .gitLogo:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  .projectLinksContainer img:hover,
-  .projectLinksContainer img:focus,
-  .projectLinksContainer img:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: #DBDBDB;
+  @media (min-width: 1023px) {
+    .projectLinksContainer img {
+      border-radius: .5em;
+      margin: 1em;
+      width: 11.5em;
+      height: 9em;
+      box-shadow: 0em .50em .50em .50em grey;
+    }
   }

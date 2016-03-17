@@ -1,0 +1,209 @@
+.navContainer {
+  box-shadow: 0em .10em .10em .10em grey;
+  display: flex;
+  padding: .5em;
+  margin-bottom: 1.25em;
+  border-radius: 1.25em;
+  justify-content: space-around;
+  flex-direction: row;
+  max-width: 100%;
+  background-color: #404666;
+  -webkit-transform: scale(.99);
+  transform: scale(.99);
+  color: #B4BBCC;
+}
+.navBarItems {
+  box-shadow: 0em .25em .25em .25em #1B1B25;
+  font-size: x-small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.25em;
+  border: solid .2em;
+  color: #D9CEC6;
+  margin: 1%;
+  width: 100%;
+  background-color: #1B1B25;
+}
+.divTitle {
+  font-size: 1.5em;
+}
+.nameLinksContainer {
+  display: flex;
+  flex: 1;
+}
+.links {
+  padding-top: 2.5em;
+  padding-right: 1.75em;
+  text-align: right;
+  -webkit-flex: 1;
+  flex: 0;
+}
+.flexBox {
+  text-align: right;
+  -webkit-flex: 1;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.name {
+  padding-left: 1em;
+  font-size: 100%;
+  color: beige;
+  -webkit-flex: 1;
+  flex: 1;
+  width: 25em;
+}
+
+
+.hiddenDivContainer {
+  display: flex;
+  justify-content: center;
+  margin-left: .65em;
+  margin-right: .65em;
+}
+.hiddenDiv1 {
+  line-height: 1.25em;
+  text-align:left;
+  width: 60%;
+  border-radius: .65em;
+  padding: 1.25em;
+  background: #rgba(255, 234, 255, 0);
+  box-shadow: 0em .75em .75em .75em #1B1B25;
+}
+    .h4AboutMe {
+      text-align: center;
+      border-radius: .65em;
+      margin-left: .25em;
+      margin-right: .25em;
+      padding: .5em;
+      margin-top: .65em;
+      background: #B4BBCC;
+      box-shadow: 0em .50em .50em .50em #1B1B25;
+    }
+    .divTitleAboutMe {
+      text-align: center;
+      border-radius: .65em;
+      margin-left: .65em;
+      margin-right: .65em;
+      margin-top: .65em;
+      margin-bottom: 1.25em;
+      padding: .25em;
+      background: #B4BBCC;
+      box-shadow: 0em .50em .50em .50em #1B1B25;
+    }
+.hiddenDiv2 {
+  text-align: center;
+  background: rgba(255, 234, 255, 0);
+  border-radius: .65em;
+  margin-right: 2em;
+  margin-left: 1.25em;
+  padding-bottom: 1em;
+  box-shadow: 0em .75em .75em .75em #1B1B25;
+}
+    .divTitleContact {
+      border-radius: 1em;
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+    .divTitleContactInside {
+      text-align: center;
+      padding: .5em;
+      margin-right: 2.5em;
+      margin-left: 2.5em;
+      margin-bottom: 1.25em;
+      margin-top: 1.25em;
+      border-radius: 1em;
+      background-color: #B4BBCC;
+      box-shadow: 0em .50em .50em .50em #1B1B25;
+    }
+    .contactsContainer {
+      text-align: center;
+      padding: .5em;
+      border-radius: 1em;
+      background-color: #B4BBCC;
+      margin-top: 1.25em;
+      margin-bottom: 1.25em;
+      margin-left: 1.25em;
+      margin-right: 1.25em;
+      box-shadow: 0em .50em .50em .50em #1B1B25;
+    }
+.hiddenDiv3 {
+  text-align: left;
+  background: rgba(255, 234, 255, 0);
+  width: 80%;
+  border-radius: .65em;
+  margin-bottom: .65em;
+  padding: 1em;
+  box-shadow: 0em .75em .75em .75em #1B1B25;
+}
+    .h3DivPortfolio {
+      justify-content: space-around;
+      padding: 1.5em;
+      border-radius: .65em;
+      background-color: #E1EAFF;
+      margin-bottom: 1.25em;
+      box-shadow: 0em .50em .50em .50em #1B1B25;
+    }
+    .divTitlePortfolio {
+      display: flex;
+      justify-content: center;
+      padding: .5em;
+      border-radius: .65em;
+      background-color: #E1EAFF;
+      margin-bottom: 1.25em;
+      margin-left: 1.25em;
+      margin-right: 1.25em;
+      box-shadow: 0em .50em .50em .50em #1B1B25;
+    }
+    .pastLifeContainer {
+      margin-top: 1.25em;
+      border-radius: .65em;
+      display: flex;
+      justify-content: space-around;;
+      align-items: center;
+      margin-top: 1.25em;
+      margin-bottom: 1.25em;
+      padding: .65em;
+      background-color: #B4BBCC;
+      box-shadow: 0em .50em .50em .50em #1B1B25;
+    }
+    .projectLinksContainer {
+      border-radius: .65em;
+      margin-bottom: 1.25em;
+      background-color: #E1EAFF;
+      box-shadow: 0em .50em .50em .50em #1B1B25;
+    }
+    .projectLinksContainer img {
+      border-radius: .5em;
+      margin: 1em;
+      width: 11em;
+      height: 9em;
+      box-shadow: 0em .50em .50em .50em grey;
+    }
+#gitLogo {
+  box-shadow: 0em .25em .25em .25em #1B1B25;
+  margin: .25em;
+  width: 3.25em;
+  border-radius: 50%;
+}
+#instaLogo {
+  box-shadow: 0em .25em .25em .25em #1B1B25;
+  margin: .25em;
+  justify-content: center;
+  align-items: center;
+  width: 3.25em;
+  border-radius: 20%;
+}
+#twitterLogo {
+  box-shadow: 0em .25em .25em .25em #1B1B25;
+  margin: .25em;
+  width: 3.25em;
+  border-radius: 4%;
+}
+#linkedInLogo {
+  box-shadow: 0em .25em .25em .25em #1B1B25;
+  margin: .25em;
+  width: 3.25em;
+  border-radius: 4%;
+}

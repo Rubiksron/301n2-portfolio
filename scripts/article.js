@@ -6,13 +6,13 @@ function Article (projects) {
   this.author = projects.author;
   this.authorUrl = projects.authorUrl;
   this.projectLinksContainer = projects.projectLinksContainer;
+  this.body = projects.body;
 }
 
 Article.prototype.toHtml = function() {
   var theTemplateScript = $('#articles-template').text();
   var theTemplate = Handlebars.compile(theTemplateScript);
   return theTemplate(this);
-  // $('article.template').removeClass('template');
 };
 
 
@@ -21,5 +21,5 @@ rawData.forEach(function(ele) {
 });
 
 articles.forEach(function(a){
-  $('#articles').append(a.toHtml());
+  $('.projectLinksContainer').append(a.toHtml());
 });
