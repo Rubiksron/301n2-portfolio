@@ -4,7 +4,7 @@ var rawData =[
     category: 'food',
     author: 'Ron Dunphy',
     authorUrl: 'http://rubiksron.github.io/campfire-coffee',
-    projectLinksContainer: 'a href="http://rubiksron.github.io/campfire-coffee"><img class="campfireCoffee" src="images/campfireCoffee.png" alt="campfireCoffee"/></a>'
+    projectLinksContainer: '<a href="http://rubiksron.github.io/campfire-coffee"><img class="campfireCoffee" src="images/campfireCoffee.png" alt="campfireCoffee"/></a>'
   },
   {
     title: 'guac-a-mole',
@@ -25,6 +25,6 @@ var rawData =[
     category: 'business',
     author: 'Ron Dunphy',
     authorUrl: 'file:///Users/rondunphy/201d5/week-2/campfire-coffee/data.html',
-    projectLinksContainer: '  <a href="file:///Users/rondunphy/201d5/week-2/campfire-coffee/data.html"><img class="dataTable" src="images/dataTable.png alt="dataTable"></a>'
+    projectLinksContainer: '<a href="file:///Users/rondunphy/201d5/week-2/campfire-coffee/dataTable.html"><img class="dataTable" src="images/dataTable.png" alt="dataTable"></a>'
   }
 ];
