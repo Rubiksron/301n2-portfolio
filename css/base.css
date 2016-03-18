@@ -62,27 +62,25 @@
      box-shadow: 0em .25em .25em .25em #F1FFFF;
   }
 
-  @media (min-width: 319px) {
+  @media (min-width: 319px) and (max-width: 321px) {
     .projectLinksContainer img {
       border-radius: .5em;
-      margin: 1.25em;
+      margin: 1.6em;
       width: 12em;
       height: 9em;
       box-shadow: 0em .50em .50em .50em grey;
     }
   }
-  @media (max-width: 374px)  {
+  @media (min-width: 374px) and (max-width: 376px)  {
     .projectLinksContainer img {
+      margin: 3.4em;
       border-radius: .5em;
       width: 11em;
       height: 9em;
       box-shadow: 0em .50em .50em .50em grey;
     }
-      body {
-        padding: 1em;
-    }
   }
-  @media (min-width: 413px) {
+  @media (min-width: 413px) and (max-width: 415px) {
     body {
       padding: 2em;
     }
@@ -95,18 +93,39 @@
     .projectLinksContainer img {
       max-width: 90%;
       border-radius: .5em;
-      margin: 1em;
+      margin: 3em;
       /*width: 90%;*/
       height: 9em;
       box-shadow: 0em .50em .50em .50em grey;
     }
   }
+  @media (min-width: 767px) and (max-width: 769px) {
+      .projectLinksContainer img {
+        border-radius: .5em;
+        margin: 2.4em;
+        width: 5em;
+        height: 9em;
+        box-shadow: 0em .50em .50em .50em grey;
+    }
+  }
 
-  @media (min-width: 1023px) {
+  @media (min-width: 1020px) {
+
+      body {
+        padding: 1em;
+      }
+      .projectLinksContainer {
+        padding-left: 22em;
+        border-radius: .65em;
+        margin-bottom: 1.5em;
+        background-color: #E1EAFF;
+        box-shadow: 0em .50em .50em .50em #1B1B25;
+      }
+    }
     .projectLinksContainer img {
       border-radius: .5em;
-      margin: 1em;
-      width: 11.5em;
+      margin: 2.4em;
+      width: 13em;
       height: 9em;
       box-shadow: 0em .50em .50em .50em grey;
     }
