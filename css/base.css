@@ -63,10 +63,14 @@
   }
 
   @media (min-width: 319px) and (max-width: 321px) {
+      img {
+      align-items: center;
+      max-width: 11em;
+    }
     .projectLinksContainer img {
       border-radius: .5em;
       margin: 1.6em;
-      width: 12em;
+      width: 11em;
       height: 9em;
       box-shadow: 0em .50em .50em .50em grey;
     }
@@ -99,23 +103,31 @@
       box-shadow: 0em .50em .50em .50em grey;
     }
   }
-  @media (min-width: 767px) and (max-width: 769px) {
+
+  @media (min-width: 766px) and (max-width: 770px) {
       .projectLinksContainer img {
         border-radius: .5em;
         margin: 2.4em;
-        width: 5em;
+        width: 4em;
         height: 9em;
         box-shadow: 0em .50em .50em .50em grey;
     }
   }
 
-  @media (min-width: 1020px) {
-
+  @media (min-width: 1020px){
+    .hiddenDiv3 {
+      text-align: left;
+      background: rgba(255, 234, 255, 0);
+      width: 87%;
+      border-radius: .65em;
+      margin-bottom: .65em;
+      padding: 1em;
+      box-shadow: 0em .75em .75em .75em #1B1B25;
+    }
       body {
         padding: 1em;
       }
       .projectLinksContainer {
-        padding-left: 22em;
         border-radius: .65em;
         margin-bottom: 1.5em;
         background-color: #E1EAFF;
