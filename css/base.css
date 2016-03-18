@@ -43,7 +43,6 @@
     margin: .5%;
     max-width: 99%;
   }
-
   .embed-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -61,11 +60,16 @@
      height: 75%;
      box-shadow: 0em .25em .25em .25em #F1FFFF;
   }
-
-  @media (min-width: 319px) and (max-width: 321px) {
+  @media (min-width: 315px) and (max-width: 325px) {
       img {
       align-items: center;
       max-width: 11em;
+    }
+    .projectLinksContainer {
+      border-radius: .65em;
+      margin-bottom: 1.5em;
+      background-color: #E1EAFF;
+      box-shadow: 0em .50em .50em .50em #1B1B25;
     }
     .projectLinksContainer img {
       border-radius: .5em;
@@ -75,7 +79,13 @@
       box-shadow: 0em .50em .50em .50em grey;
     }
   }
-  @media (min-width: 374px) and (max-width: 376px)  {
+  @media (min-width: 370px) and (max-width: 380px)  {
+    .projectLinksContainer {
+      border-radius: .65em;
+      margin-bottom: 1.5em;
+      background-color: #E1EAFF;
+      box-shadow: 0em .50em .50em .50em #1B1B25;
+    }
     .projectLinksContainer img {
       margin: 3.4em;
       border-radius: .5em;
@@ -84,7 +94,7 @@
       box-shadow: 0em .50em .50em .50em grey;
     }
   }
-  @media (min-width: 413px) and (max-width: 415px) {
+  @media (min-width: 410px) and (max-width: 420px) {
     body {
       padding: 2em;
     }
@@ -94,6 +104,12 @@
     .name {
       font-size: x-large;
     }
+    .projectLinksContainer {
+      border-radius: .65em;
+      margin-bottom: 1.5em;
+      background-color: #E1EAFF;
+      box-shadow: 0em .50em .50em .50em #1B1B25;
+    }
     .projectLinksContainer img {
       max-width: 90%;
       border-radius: .5em;
@@ -102,8 +118,13 @@
       box-shadow: 0em .50em .50em .50em grey;
     }
   }
-
-  @media (min-width: 766px) and (max-width: 770px) {
+  @media (min-width: 760px) and (max-width: 770px) {
+      .projectLinksContainer {
+        border-radius: .65em;
+        margin-bottom: 1.5em;
+        background-color: #E1EAFF;
+        box-shadow: 0em .50em .50em .50em #1B1B25;
+      }
       .projectLinksContainer img {
         border-radius: .5em;
         margin: 2.4em;
@@ -112,7 +133,6 @@
         box-shadow: 0em .50em .50em .50em grey;
     }
   }
-
   @media (min-width: 1020px){
     .hiddenDiv3 {
       text-align: left;
