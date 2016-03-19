@@ -36,7 +36,8 @@
 }
 #videoButton,
 #videoButton3 {
-  width:5em;
+  font-size: small;
+  width:7em;
   height: 3.75em;
   border-radius: .65em;
   margin: .25em;

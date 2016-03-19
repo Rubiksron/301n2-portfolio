@@ -78,7 +78,7 @@
       margin-right: .25em;
       padding: .5em;
       margin-top: .65em;
-      background: #B4BBCC;
+      background: #E1EAFF;
       box-shadow: 0em .50em .50em .50em #1B1B25;
     }
     .divTitleAboutMe {
@@ -89,7 +89,7 @@
       margin-top: .65em;
       margin-bottom: 1.25em;
       padding: .25em;
-      background: #B4BBCC;
+      background: #E1EAFF;
       box-shadow: 0em .50em .50em .50em #1B1B25;
     }
 .hiddenDiv2 {
@@ -102,6 +102,7 @@
   box-shadow: 0em .75em .75em .75em #1B1B25;
 }
     .divTitleContact {
+      /*background-color: #E1EAFF;*/
       border-radius: 1em;
       margin-left: 1em;
       margin-right: 1em;
@@ -114,14 +115,14 @@
       margin-bottom: 1.25em;
       margin-top: 1.25em;
       border-radius: 1em;
-      background-color: #B4BBCC;
+      background-color: #E1EAFF;
       box-shadow: 0em .50em .50em .50em #1B1B25;
     }
     .contactsContainer {
       text-align: center;
       padding: .5em;
       border-radius: 1em;
-      background-color: #B4BBCC;
+      background-color: #E1EAFF;
       margin-top: 1.25em;
       margin-bottom: 1.25em;
       margin-left: 1.25em;
