@@ -9,7 +9,7 @@
     font-family: 'merriweather';
   }
   footer {
-    box-shadow: 0em .10em .10em .10em grey;
+    /*box-shadow: 0em .10em .10em .10em grey;*/
     display: flex;
     margin-top: 1.25em;
     margin-bottom: 1.25em;
@@ -101,6 +101,9 @@
     .navBarItems {
       font-size: smaller;
     }
+    .hiddenDiv2 {
+      margin-left: 1.75em;
+    }
 
     .hiddenDiv3 {
       text-align: center;
@@ -130,7 +133,7 @@
   }
 
 
-  @media (min-width: 413px) {
+  @media (min-width: 415px) {
     .name {
       font-size: large;
     }
@@ -144,7 +147,7 @@
       box-shadow: 0em .75em .75em .75em #1B1B25;
     }
     body {
-      padding: 2em;
+      padding: 1em;
     }
     .navBarItems {
       font-size: small;
