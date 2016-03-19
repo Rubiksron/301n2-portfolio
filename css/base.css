@@ -150,6 +150,8 @@
   }
   @media (min-width: 767px) {
       .projectLinksContainer {
+        margin-left: 3.75em;
+        max-width: 80%;
         border-radius: .65em;
         margin-bottom: 1.5em;
         background-color: #E1EAFF;
@@ -163,8 +165,17 @@
         height: 9em;
         box-shadow: 0em .50em .50em .50em grey;
     }
+      .navBarItems {
+        font-size: small;
+    }
   }
   @media (min-width: 1020px){
+    body {
+      padding: 1em;
+    }
+    .navBarItems {
+      font-size: large;
+    }
     .hiddenDiv3 {
       text-align: center;
       background: rgba(255, 234, 255, 0);
@@ -174,10 +185,9 @@
       padding: 1em;
       box-shadow: 0em .75em .75em .75em #1B1B25;
     }
-      body {
-        padding: 1em;
-      }
       .projectLinksContainer {
+        margin-left: 12em;
+        max-width: 60%;
         border-radius: .65em;
         margin-bottom: 1.5em;
         background-color: #E1EAFF;
