@@ -61,6 +61,9 @@
      box-shadow: 0em .25em .25em .25em #F1FFFF;
   }
   @media (min-width: 319px) {
+    .navBarItems {
+      font-size: small;
+    }
     .hiddenDiv3 {
       text-align: center;
       background: rgba(255, 234, 255, 0);
@@ -70,7 +73,10 @@
       padding: 1em;
       box-shadow: 0em .75em .75em .75em #1B1B25;
     }
-      img {
+    .name {
+      font-size: medium;
+    }
+    img {
       align-items: center;
       max-width: 11em;
     }
@@ -88,7 +94,13 @@
       box-shadow: 0em .50em .50em .50em grey;
     }
   }
+
+
   @media (min-width: 374px) {
+    .navBarItems {
+      font-size: smaller;
+    }
+
     .hiddenDiv3 {
       text-align: center;
       background: rgba(255, 234, 255, 0);
@@ -115,11 +127,16 @@
       box-shadow: 0em .50em .50em .50em grey;
     }
   }
+
+
   @media (min-width: 413px) {
+    .name {
+      font-size: large;
+    }
     .hiddenDiv3 {
       text-align: center;
       background: rgba(255, 234, 255, 0);
-      width: 87%;
+      width: 80%;
       border-radius: .65em;
       margin-bottom: .65em;
       padding: 1em;
@@ -130,9 +147,6 @@
     }
     .navBarItems {
       font-size: small;
-    }
-    .name {
-      font-size: x-large;
     }
     .projectLinksContainer {
       border-radius: .65em;
@@ -148,7 +162,16 @@
       box-shadow: 0em .50em .50em .50em grey;
     }
   }
+
+
   @media (min-width: 767px) {
+    .name {
+      font-size: x-large;
+    }
+      .hiddenDiv1 {
+        width: 70%;
+        height: 25em;
+      }
       .projectLinksContainer {
         margin-left: 3.75em;
         max-width: 80%;
@@ -169,12 +192,37 @@
         font-size: small;
     }
   }
+
+  
   @media (min-width: 1020px){
+    .pastLifeContainer {
+      width: 60%;
+      margin-left: 10em;
+      font-size: large;
+    }
+    .button3div {
+      width: 60%;
+      margin-left: 11.5em;
+    }
+    .divTitlePortfolio {
+      width: 60%;
+      margin-left: 11.5em;
+
+    }
+    .h3DivPortfolio {
+      width: 60%;
+      margin-left: 10.5em;
+    }
     body {
       padding: 1em;
     }
     .navBarItems {
       font-size: large;
+    }.hiddenDiv1{
+      width: 40%;
+    }
+    .hiddenDiv2 {
+      width: 60%;
     }
     .hiddenDiv3 {
       text-align: center;
