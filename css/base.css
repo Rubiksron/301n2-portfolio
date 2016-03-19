@@ -33,6 +33,7 @@
   .imageDiv {
     box-shadow: 0em .10em .10em .10em grey;
     background: url("../images/seattle-background-resize.jpg") no-repeat;
+    background-attachment: fixed;
     height: 125vh;
     width: 100%;
     border-radius: 1.25em;
@@ -193,7 +194,7 @@
     }
   }
 
-  
+
   @media (min-width: 1020px){
     .pastLifeContainer {
       width: 60%;
@@ -214,7 +215,7 @@
       margin-left: 10.5em;
     }
     body {
-      padding: 1em;
+      padding: 2em;
     }
     .navBarItems {
       font-size: large;
