@@ -34,6 +34,15 @@
   transform: scale(1.1);
   color: #DBDBDB;
 }
+#videoButton,
+#videoButton3 {
+  width:5em;
+  height: 3.75em;
+  border-radius: .65em;
+  margin: .25em;
+  color: #B4BBCC;;
+  background-color: #1B1B25;
+}
 .button3div {
   text-align: center;
   padding: .5em;
