@@ -47,12 +47,16 @@ $('#videoCloseButton').click(function(){
 });
 
 $('#nav1').hover(function(){
+  $('#nav2').hide();
+  $('#nav3').hide();
   $('.links').hide();
   $('.name').hide();
   $('.footerTextDiv').hide();
   $('.hiddenDiv1').fadeIn();
 },function(){
   $('.hiddenDiv1').hide();
+  $('#nav2').show();
+  $('#nav3').show();
   $('.name').show();
   $('.links').show();
   $('.footerTextDiv').show();
