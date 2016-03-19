@@ -63,6 +63,7 @@ $('#nav2').hover(function(){
   $('.name').hide();
   $('#nav1').hide();
   $('#nav3').hide();
+  $('footer').hide();
   $('.hiddenDiv2').fadeIn();
 });
 $('.button2').click(function(){
@@ -71,6 +72,7 @@ $('.button2').click(function(){
   $('.links').show();
   $('#nav1').show();
   $('#nav3').show();
+  $('footer').show();
 });
 
 $('#nav3').hover(function(){
