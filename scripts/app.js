@@ -1,10 +1,9 @@
 
-
 $(document).ready(function(){
   $('.iframe1').hide();
   $('#videoCloseButton').hide();
 });
-$('#videoButton').click(function(){
+$('#finale').click(function(){
   $('.hiddenDiv3').hide();
   $('.iframe1').show();
   $('#videoCloseButton').show();
@@ -24,15 +23,29 @@ $('#videoButton2').click(function(){
 
 $(document).ready(function(){
   $('.iframe3').hide();
+  $('.scrollToTop').hide();
   $('#videoCloseButton').hide();
 });
-$('#videoButton3').click(function(){
+$('#cards').click(function(){
   $('.hiddenDiv3').hide();
   $('.iframe3').show();
   $('#videoCloseButton').show();
+  $('.scrollToTop').show();
   $('#nav3').hide();
 });
 
+$(document).ready(function(){
+  $('.iframe3').hide();
+  $('.scrollToTop').hide();
+  $('#videoCloseButton').hide();
+});
+$('#finale').click(function(){
+  $('.hiddenDiv3').hide();
+  $('.iframe3').show();
+  $('#videoCloseButton').show();
+  $('.scrollToTop').show();
+  $('#nav3').hide();
+});
 
 
 $('#videoCloseButton').click(function(){
@@ -94,4 +107,21 @@ $('.button3').click(function(){
   $('#nav1').show();
   $('#nav2').show();
   $('.footerTextDiv').show();
+});
+$('.scrollToTop').click(function(){
+  $('.scrollToTop').fadeOut();
+});
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	if ($(this).scrollTop() > 2000) {
+  		$('.scrollToTop').fadeIn(500);
+      // $('.scrollToTop').fadeOut();
+  	}
+  });
+  $('.scrollToTop').click(function(){
+	 $('html, body').animate({scrollTop : 0},800);
+	 return false;
+  });
+
 });

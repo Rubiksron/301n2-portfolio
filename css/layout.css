@@ -31,6 +31,7 @@
 .nameLinksContainer {
   display: flex;
   flex: 1;
+  margin-top: 1em;
 }
 .links {
   padding-top: 2.5em;
@@ -45,6 +46,7 @@
   flex: 1;
   display: flex;
   justify-content: center;
+  margin-bottom: 2em;
 }
 .name {
   padding-left: 1em;
@@ -167,7 +169,7 @@
       margin-bottom: 1.25em;
       padding: .65em;
       background-color: #B4BBCC;
-      box-shadow: 0em .15em .15em .15em beige;
+      box-shadow: 0em .50em .50em .50em #1B1B25;
     }
     .projectLinksContainer {
       border-radius: .65em;
