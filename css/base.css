@@ -1,19 +1,26 @@
   .scrollToTop {
-    width:7em;
-    height:2em;
+    width:8em;
+    height:3em;
     padding:1em;;
     text-align:center;
-    background: whiteSmoke;
     font-weight: bold;
-    color: #444;
+    color: white;
     text-decoration: none;
     position:fixed;
     top:14em;
     right:5em;
     display:none;
+    border-radius: .65em;
+    box-shadow: 0em .10em .10em .10em white;
+    background: black;
   }
-  .scrollToTop:hover {
+  .scrollToTop:hover,
+  .scrollToTop:focus,
+  .scrollToTop:active {
     text-decoration:none;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #DBDBDB;
   }
   img {
     align-items: center;
@@ -78,6 +85,10 @@
      box-shadow: 0em .25em .25em .25em #F1FFFF;
   }
   @media (min-width: 319px) {
+    .scrollToTop {
+      margin-right: 0em;
+      margin-top: 0em;
+    }
     .navBarItems {
       font-size: small;
     }

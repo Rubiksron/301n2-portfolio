@@ -108,20 +108,13 @@ $('.button3').click(function(){
   $('#nav2').show();
   $('.footerTextDiv').show();
 });
-$('.scrollToTop').click(function(){
-  $('.scrollToTop').fadeOut();
-});
 
 $(document).ready(function(){
-  $(window).scroll(function(){
-    if ($(this).scrollTop() > 1700) {
-    	$('.scrollToTop').fadeIn();
-    } else {
-      $('.scrollToTop').fadeOut();
-  	}
-  });
   $('.scrollToTop').click(function(){
-	 $('html, body').animate({scrollTop : 0},800);
+	 $('html, body').animate({scrollTop : 0},900);
 	 return false;
   });
+});
+$('.scrollToTop').click(function(){
+  $('.scrollToTop').fadeOut();
 });
