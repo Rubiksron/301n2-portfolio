@@ -1,25 +1,20 @@
-.scrollToTop {
-  width:7em;
-  height:2em;
-  padding:1em;;
-  text-align:center;
-  background: whiteSmoke;
-  font-weight: bold;
-  color: #444;
-  text-decoration: none;
-  position:fixed;
-  top:14em;
-  right:5em;
-  display:none;
-}
-.scrollToTop:hover {
-  text-decoration:none;
-  color: red;
-}
-
-
-
-
+  .scrollToTop {
+    width:7em;
+    height:2em;
+    padding:1em;;
+    text-align:center;
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    top:14em;
+    right:5em;
+    display:none;
+  }
+  .scrollToTop:hover {
+    text-decoration:none;
+  }
   img {
     align-items: center;
     max-width: 12em;
