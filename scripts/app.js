@@ -110,11 +110,20 @@ $('.button3').click(function(){
 });
 
 $(document).ready(function(){
-  $('.scrollToTop').click(function(){
-	 $('html, body').animate({scrollTop : 0},900);
-	 return false;
+  $('#finale').click(function(){
+    $('.hiddenDiv3').hide();
+	  $('html, body').animate({scrollTop : 0},900);
+	    return false;
   });
 });
-$('.scrollToTop').click(function(){
-  $('.scrollToTop').fadeOut();
+$(document).ready(function(){
+  $('#cards').click(function(){
+    $('.hiddenDiv3').hide();
+	  $('html, body').animate({scrollTop : 0},900);
+	    return false;
+  });
 });
+
+// $('.scrollToTop').click(function(){
+//   $('.scrollToTop').fadeOut();
+// });

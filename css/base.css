@@ -1,4 +1,4 @@
-  .scrollToTop {
+  /*.scrollToTop {
     width:8em;
     height:3em;
     padding:1em;;
@@ -21,7 +21,7 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     color: #DBDBDB;
-  }
+  }*/
   img {
     align-items: center;
     max-width: 12em;
@@ -85,10 +85,10 @@
      box-shadow: 0em .25em .25em .25em #F1FFFF;
   }
   @media (min-width: 319px) {
-    .scrollToTop {
+    /*.scrollToTop {
       margin-right: 0em;
       margin-top: 0em;
-    }
+    }*/
     .navBarItems {
       font-size: small;
     }
@@ -116,10 +116,10 @@
 
 
   @media (min-width: 374px) {
-    .scrollToTop {
+    /*.scrollToTop {
       margin-right: 2em;
       margin-top: 0em;
-    }
+    }*/
 
     .navBarItems {
       font-size: smaller;
@@ -150,10 +150,10 @@
 
 
   @media (min-width: 413px) {
-    .scrollToTop {
+    /*.scrollToTop {
       margin-right: 2em;
       margin-top: 2em;
-    }
+    }*/
     .name {
       font-size: large;
     }
@@ -166,10 +166,10 @@
 
 
   @media (min-width: 767px) {
-    .scrollToTop {
+    /*.scrollToTop {
       margin-right: 12.5em;
       margin-top: 1em;
-    }
+    }*/
     .imageDiv {
       margin-right: 12.5em;
       margin-top: 2em;
@@ -204,16 +204,16 @@
 
 
   @media (min-width: 1020px){
+    /*.scrollToTop {
+      margin-right: 28em;
+      margin-top: 1em;
+    }*/
     .flexBox {
       margin-top: 2em;
     }
     .imageDiv {
       margin-right: 12.5em;
       margin-top: 2em;
-    }
-    .scrollToTop {
-      margin-right: 28em;
-      margin-top: 1em;
     }
     .hiddenDiv1 {
       width: 80%;
