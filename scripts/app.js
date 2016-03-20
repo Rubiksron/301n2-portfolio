@@ -114,14 +114,14 @@ $('.scrollToTop').click(function(){
 
 $(document).ready(function(){
   $(window).scroll(function(){
-  	if ($(this).scrollTop() > 2000) {
-  		$('.scrollToTop').fadeIn(500);
-      // $('.scrollToTop').fadeOut();
+    if ($(this).scrollTop() > 1700) {
+    	$('.scrollToTop').fadeIn();
+    } else {
+      $('.scrollToTop').fadeOut();
   	}
   });
   $('.scrollToTop').click(function(){
 	 $('html, body').animate({scrollTop : 0},800);
 	 return false;
   });
-
 });
