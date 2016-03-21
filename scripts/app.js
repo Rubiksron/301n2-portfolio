@@ -1,3 +1,17 @@
+$(document).ready(function(){
+  $('#finale').click(function(){
+    $('.hiddenDiv3').hide();
+    $('html, body').animate({scrollTop : 0},900);
+    return false;
+  });
+});
+// $(document).ready(function(){
+//   $('#cards').click(function(){
+//     $('.hiddenDiv3').hide();
+//     $('html, body').animate({scrollTop : 0},900);
+//     return false;
+//   });
+// });
 
 $(document).ready(function(){
   $('.iframe1').hide();
@@ -10,44 +24,38 @@ $('#finale').click(function(){
   $('#nav3').hide();
 });
 
-$(document).ready(function(){
-  $('.iframe2').hide();
-  $('#videoCloseButton').hide();
-});
-$('#videoButton2').click(function(){
-  $('.hiddenDiv3').hide();
-  $('.iframe2').show();
-  $('#videoCloseButton').show();
-  $('#nav3').hide();
-});
+// $(document).ready(function(){
+//   $('.iframe2').hide();
+//   $('#videoCloseButton').hide();
+// });
+// $('#videoButton2').click(function(){
+//   $('.hiddenDiv3').hide();
+//   $('.iframe2').show();
+//   $('#videoCloseButton').show();
+//   $('#nav3').hide();
+// });
+
+// $(document).ready(function(){
+//   $('.iframe3').hide();
+//   $('#videoCloseButton').hide();
+// });
+// $('#cards').click(function(){
+//   $('.hiddenDiv3').hide();
+//   $('.iframe3').show();
+//   $('#videoCloseButton').show();
+//   $('#nav3').hide();
+// });
 
 $(document).ready(function(){
   $('.iframe3').hide();
-  $('.scrollToTop').hide();
-  $('#videoCloseButton').hide();
-});
-$('#cards').click(function(){
-  $('.hiddenDiv3').hide();
-  $('.iframe3').show();
-  $('#videoCloseButton').show();
-  $('.scrollToTop').show();
-  $('#nav3').hide();
-});
-
-$(document).ready(function(){
-  $('.iframe3').hide();
-  $('.scrollToTop').hide();
   $('#videoCloseButton').hide();
 });
 $('#finale').click(function(){
   $('.hiddenDiv3').hide();
   $('.iframe3').show();
   $('#videoCloseButton').show();
-  $('.scrollToTop').show();
   $('#nav3').hide();
 });
-
-
 $('#videoCloseButton').click(function(){
   $('iframe').hide();
   $('#videoCloseButton').hide();
@@ -58,7 +66,6 @@ $('#videoCloseButton').click(function(){
   $('.links').show();
   $('.footerTextDiv').show();
 });
-
 $('#nav1').hover(function(){
   $('#nav2').hide();
   $('#nav3').hide();
@@ -108,22 +115,3 @@ $('.button3').click(function(){
   $('#nav2').show();
   $('.footerTextDiv').show();
 });
-
-$(document).ready(function(){
-  $('#finale').click(function(){
-    $('.hiddenDiv3').hide();
-	  $('html, body').animate({scrollTop : 0},900);
-	    return false;
-  });
-});
-$(document).ready(function(){
-  $('#cards').click(function(){
-    $('.hiddenDiv3').hide();
-	  $('html, body').animate({scrollTop : 0},900);
-	    return false;
-  });
-});
-
-// $('.scrollToTop').click(function(){
-//   $('.scrollToTop').fadeOut();
-// });
