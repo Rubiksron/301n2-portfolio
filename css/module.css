@@ -1,3 +1,11 @@
+
+#finale:hover,
+#finale:focus,
+#finale:active {
+  -webkit-transform: scale(2.5);
+  transform: scale(2.5);
+  box-shadow: 0em .25em .25em .25em grey;
+}
 #videoCloseButton {
   width:7em;
   height: 3.75em;
@@ -5,25 +13,6 @@
   margin: 5em;
   color: #B4BBCC;
   background-color: #1B1B25;
-}
-.projectLinksContainer img:hover,
-.projectLinksContainer img:focus,
-.projectLinksContainer img:active,
-#videoCloseButton:hover,
-#videoCloseButton:focus,
-#videoCloseButton:active,
-#videoButton2:hover,
-#videoButton2:focus,
-#videoButton2:active,
-#finale:hover,
-#finale:focus,
-#finale:active,
-#cards:hover,
-#cards:focus,
-#cards:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  color: #DBDBDB;
 }
 #videoCloseButton,
 #videoButton2,
@@ -43,14 +32,20 @@
   margin-top: 1.25em;
   margin-bottom: 1.25em;
   border-radius: .65em;
-  background-color: #B4BBCC;
   margin-left: 4em;
   margin-right: 4em;
+  background-color: #B4BBCC;
   box-shadow: 0em .25em .25em .25em #1B1B25;
 }
 .button2div {
+  padding: .5em;
   text-align: center;
+  margin-left: 5.25em;
   margin-top: 2em;
+  max-width: 32%;
+  border-radius: .65em;
+  background-color: #E1EAFF;
+  box-shadow: 0em .25em .25em .25em #1B1B25;
 }
 .button3,
 .button2 {
@@ -61,19 +56,32 @@
   color: #B4BBCC;
   background-color: #1B1B25;
 }
+.projectLinksContainer img:hover,
+.projectLinksContainer img:focus,
+.projectLinksContainer img:active,
+#videoCloseButton:hover,
+#videoCloseButton:focus,
+#videoCloseButton:active,
+#videoButton2:hover,
+#videoButton2:focus,
+#videoButton2:active,
 .button2:hover,
 .button2:focus,
 .button2:active,
 .button3:hover,
 .button3:focus,
-.button3:active {
+.button3:active,
+.logo:hover,
+.logo:focus,
+.logo:active,
+#finale:hover,
+#finale:focus,
+#finale:active,
+#cards:hover,
+#cards:focus,
+#cards:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   color: #DBDBDB;
-}
-.logo:hover,
-.logo:focus,
-.logo:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  box-shadow: 0em .25em .25em .25em #1B1B25;
 }
