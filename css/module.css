@@ -14,6 +14,17 @@
   color: #B4BBCC;
   background-color: #1B1B25;
 }
+#scrollToTop {
+  font-size: small;
+  margin-left: .95em;
+  width: 11.5em;
+  height: 3.75em;
+  border-radius: 1em;
+  margin: .75em;
+  color: #B4BBCC;
+  background-color: #1B1B25;
+  box-shadow: 0em .25em .25em .25em #1B1B25;
+}
 #videoCloseButton,
 #videoButton2,
 #finale,
@@ -71,15 +82,15 @@
 .button3:hover,
 .button3:focus,
 .button3:active,
+#scrollToTop:hover,
+#scrollToTop:focus,
+#scrollToTop:active,
 .logo:hover,
 .logo:focus,
 .logo:active,
 #finale:hover,
 #finale:focus,
-#finale:active,
-#cards:hover,
-#cards:focus,
-#cards:active {
+#finale:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   color: #DBDBDB;

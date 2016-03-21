@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
   $('#finale').click(function(){
     $('.hiddenDiv3').hide();
@@ -5,13 +7,13 @@ $(document).ready(function(){
     return false;
   });
 });
-// $(document).ready(function(){
-//   $('#cards').click(function(){
-//     $('.hiddenDiv3').hide();
-//     $('html, body').animate({scrollTop : 0},900);
-//     return false;
-//   });
-// });
+
+$(document).ready(function(){
+  $('#scrollToTop').click(function(){
+    $('html, body').animate({scrollTop : 0},900);
+    return false;
+  });
+});
 
 $(document).ready(function(){
   $('.iframe1').hide();
@@ -24,28 +26,6 @@ $('#finale').click(function(){
   $('#nav3').hide();
 });
 
-// $(document).ready(function(){
-//   $('.iframe2').hide();
-//   $('#videoCloseButton').hide();
-// });
-// $('#videoButton2').click(function(){
-//   $('.hiddenDiv3').hide();
-//   $('.iframe2').show();
-//   $('#videoCloseButton').show();
-//   $('#nav3').hide();
-// });
-
-// $(document).ready(function(){
-//   $('.iframe3').hide();
-//   $('#videoCloseButton').hide();
-// });
-// $('#cards').click(function(){
-//   $('.hiddenDiv3').hide();
-//   $('.iframe3').show();
-//   $('#videoCloseButton').show();
-//   $('#nav3').hide();
-// });
-
 $(document).ready(function(){
   $('.iframe3').hide();
   $('#videoCloseButton').hide();
@@ -56,6 +36,7 @@ $('#finale').click(function(){
   $('#videoCloseButton').show();
   $('#nav3').hide();
 });
+
 $('#videoCloseButton').click(function(){
   $('iframe').hide();
   $('#videoCloseButton').hide();
@@ -66,6 +47,7 @@ $('#videoCloseButton').click(function(){
   $('.links').show();
   $('.footerTextDiv').show();
 });
+
 $('#nav1').hover(function(){
   $('#nav2').hide();
   $('#nav3').hide();
@@ -115,3 +97,26 @@ $('.button3').click(function(){
   $('#nav2').show();
   $('.footerTextDiv').show();
 });
+
+
+// number of drops created.
+var nbDrop = 458;
+
+// function to generate a random number range.
+function randRange( minNum, maxNum) {
+  return (Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum);
+}
+
+function createRain() {
+
+  	for( i=1;i<nbDrop;i++) {
+    	var dropLeft = randRange(0,500);
+    	var dropTop = randRange(-1000,500);
+
+    	$('.hiddenDiv3').append('<div class="drop" id="drop'+i+'"></div>');
+    	$('#drop'+i).css('left',dropLeft);
+    	$('#drop'+i).css('top',dropTop);
+  	}
+
+}
+createRain();
