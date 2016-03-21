@@ -1,4 +1,21 @@
 
+
+  .drop {
+    background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1)), to(rgba(255,255,255,0.6)) );
+    width:.50px;
+    height:89px;
+    position: absolute;
+    -webkit-animation: fall .63s linear infinite;
+    -moz-animation: fall .63s linear infinite;
+    }
+    /* animate the drops*/
+  @-webkit-keyframes fall {
+    to {margin-top:900px;}
+  }
+  @-moz-keyframes fall {
+    to {margin-top:900px;}
+  }
+
   img {
     align-items: center;
     max-width: 12em;
@@ -62,10 +79,10 @@
      box-shadow: 0em .25em .25em .25em #F1FFFF;
   }
   @media (min-width: 319px) {
-    /*.scrollToTop {
-      margin-right: 0em;
-      margin-top: 0em;
-    }*/
+    .link {
+      padding-top: 1.5em;
+      margin-right: .75em;
+    }
     .navBarItems {
       font-size: small;
     }
@@ -93,7 +110,6 @@
 
 
   @media (min-width: 374px) {
-
     .navBarItems {
       font-size: smaller;
     }
