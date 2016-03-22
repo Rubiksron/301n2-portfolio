@@ -1,3 +1,27 @@
+// number of drops created.
+function makeItRain() {
+
+  var nbDrop = 558;
+
+  function randRange( minNum, maxNum) {
+    return (Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum);
+  }
+  	for( i=1; i<nbDrop; i++) {
+    	var dropLeft = randRange(0,500);
+    	var dropTop = randRange(-2000,500);
+    	$('.makeItRain').append('<div class="drop" id="drop'+i+'"></div>');
+    	$('#drop'+i).css('left',dropLeft);
+    	$('#drop'+i).css('top',dropTop);
+  	}
+}
+makeItRain();
+
+$(document).ready(function(){
+  $('.makeItRain').hide();
+});
+$('#finale').click(function(){
+  $('.makeItRain').show();
+});
 
 
 $(document).ready(function(){
@@ -37,7 +61,9 @@ $('#finale').click(function(){
   $('#nav3').hide();
 });
 
+
 $('#videoCloseButton').click(function(){
+  $('.makeItRain').hide();
   $('iframe').hide();
   $('#videoCloseButton').hide();
   $('#nav1').show();
@@ -97,26 +123,3 @@ $('.button3').click(function(){
   $('#nav2').show();
   $('.footerTextDiv').show();
 });
-
-
-// number of drops created.
-var nbDrop = 458;
-
-// function to generate a random number range.
-function randRange( minNum, maxNum) {
-  return (Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum);
-}
-
-function createRain() {
-
-  	for( i=1;i<nbDrop;i++) {
-    	var dropLeft = randRange(0,500);
-    	var dropTop = randRange(-1000,500);
-
-    	$('.hiddenDiv3').append('<div class="drop" id="drop'+i+'"></div>');
-    	$('#drop'+i).css('left',dropLeft);
-    	$('#drop'+i).css('top',dropTop);
-  	}
-
-}
-createRain();
