@@ -82,6 +82,9 @@ $('#nav1').hover(function(){
   $('.footerTextDiv').hide();
   $('.hiddenDiv1').fadeIn();
 },function(){
+
+});
+$('.closeAboutMe').click(function(){
   $('.hiddenDiv1').hide();
   $('#nav2').show();
   $('#nav3').show();
@@ -89,6 +92,7 @@ $('#nav1').hover(function(){
   $('.links').show();
   $('.footerTextDiv').show();
 });
+
 
 $('#nav2').hover(function(){
   $('.links').hide();

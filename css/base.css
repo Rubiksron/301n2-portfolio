@@ -9,10 +9,10 @@ position: absolute;
 top: 0;
 width: 100%;
 z-index: -1;
--webkit-animation: snow 10s linear infinite;
--moz-animation: snow 10s linear infinite;
--ms-animation: snow 10s linear infinite;
-animation: snow 10s linear infinite;
+-webkit-animation: snow 20s linear infinite;
+-moz-animation: snow 20s linear infinite;
+-ms-animation: snow 20s linear infinite;
+animation: snow 20s linear infinite;
 }
 @keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
@@ -69,7 +69,7 @@ animation: snow 10s linear infinite;
     box-shadow: 0em .10em .10em .10em grey;
     background: url("../images/seattle-background-resize.jpg") no-repeat;
     background-attachment: fixed;
-    height: 215vh;
+    height: 315vh;
     width: 100%;
     border-radius: 1.25em;
     padding-top: 1.25em;

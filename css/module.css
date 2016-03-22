@@ -1,8 +1,25 @@
 
 .makeItRain {
-
+  /*This div is where the snow populates the html*/
 }
-
+.closeAboutMeDiv {
+  text-align: center;
+  margin-bottom: 1.25em;
+  border-radius: .65em;
+  margin-left: 23em;
+  margin-right: 23em;
+  background-color: #B4BBCC;
+  box-shadow: 0em .25em .25em .25em #1B1B25;
+}
+.closeAboutMe {
+  width:7em;
+  height: 3.75em;
+  border-radius: 1em;
+  margin: .5em;
+  color: #B4BBCC;
+  background-color: #1B1B25;
+  box-shadow: 0em .25em .25em .25em grey;
+}
 #finale:hover,
 #finale:focus,
 #finale:active {
@@ -59,7 +76,7 @@
   margin-top: 2em;
   max-width: 32%;
   border-radius: .65em;
-  background-color: #E1EAFF;
+  background-color: #B4BBCC;
   box-shadow: 0em .25em .25em .25em #1B1B25;
 }
 .button3,
@@ -73,7 +90,16 @@
 }
 .projectLinksContainer img:hover,
 .projectLinksContainer img:focus,
-.projectLinksContainer img:active,
+.projectLinksContainer img:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #DBDBDB;
+  box-shadow: 0em .50em .50em .50em grey;
+}
+
+.closeAboutMe:hover,
+.closeAboutMe:focus,
+.closeAboutMe:active,
 #videoCloseButton:hover,
 #videoCloseButton:focus,
 #videoCloseButton:active,
