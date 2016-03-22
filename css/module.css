@@ -4,10 +4,10 @@
 }
 .closeAboutMeDiv {
   text-align: center;
+  margin-left: 2em;
+  margin-right: 2em;
   margin-bottom: 1.25em;
   border-radius: .65em;
-  margin-left: 23em;
-  margin-right: 23em;
   background-color: #B4BBCC;
   box-shadow: 0em .25em .25em .25em #1B1B25;
 }
