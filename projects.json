@@ -16,11 +16,5 @@
     "description":"An app to test new products",
     "url":"file://Users/rondunphy/201d5/week-3/randomized-images/index.html",
     "img":"images/busMall.png"
-  },
-  {
-    "title":"dataTable",
-    "description":"This table calculates future product needs",
-    "url":"file://Users/rondunphy/201d5/week-2/campfire-coffee/data.html",
-    "img":"images/dataTable.png"
   }
 ]
