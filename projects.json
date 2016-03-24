@@ -1,0 +1,26 @@
+[
+  {
+    "title":"campfireCoffee",
+    "description":"Site for a salmon cookie company",
+    "url":"http://rubiksron.github.io/campfire-coffee",
+    "img":"images/campfireCoffee.png"
+  },
+  {
+    "title":"guac-a-mole",
+    "description":"Game that test trivia",
+    "url":"http://alexwuwei.github.io/Guac-A-Mole-Didactic-Tool/welcome.html",
+    "img":"images/guac-a-mole.png"
+  },
+  {
+    "title":"busMall",
+    "description":"An app to test new products",
+    "url":"file://Users/rondunphy/201d5/week-3/randomized-images/index.html",
+    "img":"images/busMall.png"
+  },
+  {
+    "title":"dataTable",
+    "description":"This table calculates future product needs",
+    "url":"file://Users/rondunphy/201d5/week-2/campfire-coffee/data.html",
+    "img":"images/dataTable.png"
+  }
+]
