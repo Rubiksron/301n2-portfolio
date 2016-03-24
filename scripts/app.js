@@ -1,6 +1,6 @@
-// number of drops created.
-function makeItRain() {
 
+function makeItRain() {
+ // number of drops created.
   var nbDrop = 558;
 
   function randRange( minNum, maxNum) {
@@ -153,3 +153,12 @@ Article.fetchAll = function() {
   }
 };
 $('.template').hide();
+
+//protects against clickjacking
+if (self == top) {
+  // Everything checks out, show the page.
+  document.documentElement.style.display = 'block';
+} else {
+  // Break out of the frame.
+  top.location = self.location;
+}
