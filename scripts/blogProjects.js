@@ -17,14 +17,14 @@ var rawData =[
     title: 'busMall',
     category: 'business',
     author: 'Ron Dunphy',
-    authorUrl: 'file:///Users/rondunphy/201d5/week-3/randomized-images/index.html',
-    projectLinksContainer: '<a href="file:///Users/rondunphy/201d5/week-3/randomized-images/index.html"><img class="busMall" src="images/busMall.png" alt="busMall"></a>'
+    authorUrl: '/Users/rondunphy/201d5/week-3/randomized-images/index.html',
+    projectLinksContainer: '<a href="/Users/rondunphy/201d5/week-3/randomized-images/index.html"><img class="busMall" src="images/busMall.png" alt="busMall"></a>'
   },
   {
     title: 'dataTable',
     category: 'business',
     author: 'Ron Dunphy',
-    authorUrl: 'file:///Users/rondunphy/201d5/week-2/campfire-coffee/data.html',
-    projectLinksContainer: '<a href="file:///Users/rondunphy/201d5/week-2/campfire-coffee/dataTable.html"><img class="dataTable" src="images/dataTable.png" alt="dataTable"></a>'
+    authorUrl: '/Users/rondunphy/201d5/week-2/campfire-coffee/data.html',
+    projectLinksContainer: '<a href="/Users/rondunphy/201d5/week-2/campfire-coffee/dataTable.html"><img class="dataTable" src="images/dataTable.png" alt="dataTable"></a>'
   }
 ];

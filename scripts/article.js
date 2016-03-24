@@ -15,7 +15,6 @@ Article.prototype.toHtml = function() {
   return theTemplate(this);
 };
 
-
 rawData.forEach(function(ele) {
   articles.push(new Article(ele));
 });
