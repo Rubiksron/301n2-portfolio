@@ -74,11 +74,13 @@
   box-shadow: 0em .75em .75em .75em #1B1B25;
 }
     .h4AboutMe {
-      text-align: center;
+      line-height: 1em;
+      font-size: large;
+      text-align: left;
       border-radius: .65em;
       margin-left: .25em;
       margin-right: .25em;
-      padding: .5em;
+      padding: 1em;
       margin-top: .65em;
       background: #E1EAFF;
       box-shadow: 0em .50em .50em .50em #1B1B25;

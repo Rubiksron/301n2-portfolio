@@ -154,8 +154,7 @@
       });
     }
   };
-  $('.template').hide();
-
+  
 //protects against clickjacking
   if (self == top) {
   // Everything checks out, show the page.
