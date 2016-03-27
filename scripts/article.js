@@ -15,10 +15,10 @@ Article.prototype.toHtml = function() {
   return theTemplate(this);
 };
 
-rawData.forEach(function(ele) {
+rawData.map(function(ele) {
   articles.push(new Article(ele));
 });
 
-articles.forEach(function(a){
+articles.map(function(a){
   $('.projectLinksContainer').append(a.toHtml());
 });
