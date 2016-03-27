@@ -56,6 +56,7 @@ animation: snow 20s linear infinite;
     background-color: #404666;
     box-shadow: 0em .10em .10em .10em grey;
   }
+
   a:hover,
   a:focus,
   a:active {
@@ -118,6 +119,12 @@ animation: snow 20s linear infinite;
     }
     @-moz-keyframes fall {
       to {margin-top:900px;}
+    }
+    body{
+      padding: .25em;
+    }
+    .flexBox {
+      margin-left: -.25em;
     }
     .links {
       padding-top: 2.5em;
@@ -237,6 +244,12 @@ animation: snow 20s linear infinite;
 
 
   @media (min-width: 1020px){
+    .links {
+      font-size: 4.5em;
+    }
+    .name {
+      font-size: 2.5em;
+    }
     .button2div {
       margin-left: 17em;
     }
@@ -264,9 +277,6 @@ animation: snow 20s linear infinite;
       margin-bottom: .65em;
       padding: 1em;
       box-shadow: 0em .75em .75em .75em #1B1B25;
-    }
-    .name {
-      font-size: xx-large;
     }
     .pastLifeContainer {
       width: 60%;
