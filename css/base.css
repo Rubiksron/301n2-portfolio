@@ -123,6 +123,13 @@ animation: snow 20s linear infinite;
     body{
       padding: .25em;
     }
+    img {
+      align-items: center;
+      max-width: 11em;
+    }
+    .hiddenDiv3 {
+      margin-left: 0.25em;
+    }
     .flexBox {
       margin-left: -.25em;
     }
@@ -135,10 +142,6 @@ animation: snow 20s linear infinite;
     }
     .name {
       font-size: x-large;
-    }
-    img {
-      align-items: center;
-      max-width: 11em;
     }
     .projectLinksContainer {
       border-radius: .65em;
@@ -244,9 +247,6 @@ animation: snow 20s linear infinite;
 
 
   @media (min-width: 1020px){
-    .links {
-      font-size: 4.5em;
-    }
     .name {
       font-size: 2.5em;
     }
