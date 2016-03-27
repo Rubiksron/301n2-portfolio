@@ -131,14 +131,14 @@ Article.all = [];
 
 Article.loadAll = function(rawData) {
 
-  rawData.forEach(function(ele) {
+  rawData.map(function(ele) {
     Article.all.push(new Article(ele));
   });
 };
 Article.fetchAll = function() {
   if (localStorage.rawData) {
     Article.loadAll(JSON.parse(localStorage.rawData));
-    Article.all.forEach(function(a){
+    Article.all.map(function(a){
       $('article-projectLinksContainer.projects').parent().append(a.toHtml());
     });
   } else {
@@ -146,7 +146,7 @@ Article.fetchAll = function() {
       Article.loadAll(data);
 
       localStorage.setItem('rawData', JSON.stringify(data));
-      Article.all.forEach(function(a){
+      Article.all.map(function(a){
         $('article-projectLinksContainer.projects').parent().append(a.toHtml());
       });
     });
