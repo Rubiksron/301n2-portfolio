@@ -129,6 +129,7 @@
     $('#nav2').show();
     $('.footerTextDiv').show();
   });
+  
   Article.all = [];
 
   Article.loadAll = function(rawData) {
@@ -154,7 +155,7 @@
       });
     }
   };
-  
+
 //protects against clickjacking
   if (self == top) {
   // Everything checks out, show the page.
