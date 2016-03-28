@@ -22,16 +22,3 @@ rawData.map(function(ele) {
 articles.map(function(a){
   $('.projectLinksContainer').append(a.toHtml());
 });
-
-
-// var links = [];
-//
-// function Links (objects) {
-//   this.title = links.title;
-//   this.links = links.links;
-//   this.img = links.img;
-//   this.url = links.url;
-// }
-//
-// Links.prototype.toHtml = function()
-//   var theTemplateScript = $('')
