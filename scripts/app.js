@@ -1,6 +1,8 @@
-
-(function(module){
-
+(function(module) {
+  $(window).on('scroll', function(){
+    console.log("window height: " + $(this).height());
+    console.log($(this).scrollTop());
+  });
   function makeItRain() {
    // number of drops created.
     var nbDrop = 558;
@@ -129,7 +131,7 @@
     $('#nav2').show();
     $('.footerTextDiv').show();
   });
-  
+
   Article.all = [];
 
   Article.loadAll = function(rawData) {
@@ -164,6 +166,5 @@
     // Break out of the frame.
     top.location = self.location;
   }
+  module.Article.fetchAll = Article.fetchAll;
 })(window);
-
-window.Article.fetchAll = Article.fetchAll;
