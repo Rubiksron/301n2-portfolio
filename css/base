@@ -1,41 +1,41 @@
 
- /*Hide page by default, to prevent clickjacking */
+/* Hide page by default, to prevent clickjacking */
 /*html { display : none; }*/
 
 #snow{
-  background: none;
-  font-family: Androgyne;
-  background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
-  -webkit-animation: snow 20s linear infinite;
-  -moz-animation: snow 20s linear infinite;
-  -ms-animation: snow 20s linear infinite;
-  animation: snow 20s linear infinite;
-  }
-  @keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
-  }
-  @-moz-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
-  }
-  @-webkit-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
-  }
-  @-ms-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+background: none;
+font-family: Androgyne;
+background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+height: 100%;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+z-index: -1;
+-webkit-animation: snow 20s linear infinite;
+-moz-animation: snow 20s linear infinite;
+-ms-animation: snow 20s linear infinite;
+animation: snow 20s linear infinite;
+}
+@keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }
   img {
     align-items: center;
@@ -224,30 +224,30 @@
     .name {
       font-size: xx-large;
     }
-    .hiddenDiv1 {
-      width: 70%;
-      height: 36em;
+      .hiddenDiv1 {
+        width: 70%;
+        height: 36em;
+      }
+      .projectLinksContainer {
+        margin-left: 3.75em;
+        max-width: 80%;
+        border-radius: .65em;
+        margin-bottom: 1.5em;
+        background-color: #E1EAFF;
+        box-shadow: 0em .50em .50em .50em #1B1B25;
+      }
+      .projectLinksContainer img {
+        margin-left: 13em
+        border-radius: .5em;
+        margin: 2.4em;
+        width: 4em;
+        height: 9em;
+        box-shadow: 0em .50em .50em .50em grey;
     }
-    .projectLinksContainer {
-      margin-left: 3.75em;
-      max-width: 80%;
-      border-radius: .65em;
-      margin-bottom: 1.5em;
-      background-color: #E1EAFF;
-      box-shadow: 0em .50em .50em .50em #1B1B25;
+      .navBarItems {
+        font-size: small;
     }
-    .projectLinksContainer img {
-      margin-left: 13em
-      border-radius: .5em;
-      margin: 2.4em;
-      width: 4em;
-      height: 9em;
-      box-shadow: 0em .50em .50em .50em grey;
   }
-    .navBarItems {
-      font-size: small;
-  }
-}
 
 
   @media (min-width: 1020px){
@@ -265,7 +265,7 @@
       margin-top: 2em;
     }
     .hiddenDiv1 {
-      width: 70%;
+      width: 75%;
       height: 33em;
     }
     .hiddenDiv2 {
