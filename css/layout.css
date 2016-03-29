@@ -192,14 +192,6 @@
   width: 3.25em;
   border-radius: 50%;
 }
-#instaLogo {
-  box-shadow: 0em .25em .25em .25em #1B1B25;
-  margin: .25em;
-  justify-content: center;
-  align-items: center;
-  width: 3.25em;
-  border-radius: 20%;
-}
 #twitterLogo {
   box-shadow: 0em .25em .25em .25em #1B1B25;
   margin: .25em;
