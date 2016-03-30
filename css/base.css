@@ -1,7 +1,4 @@
 
- /*Hide page by default, to prevent clickjacking */
-/*html { display : none; }*/
-
 #snow{
   background: none;
   font-family: Androgyne;
