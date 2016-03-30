@@ -137,7 +137,6 @@
     } else {
       $.getJSON('projects.json', function(data) {
         Article.loadAll(data);
-
         localStorage.setItem('rawData', JSON.stringify(data));
         Article.all.map(function(a){
           $('article-projectLinksContainer.projects').append(a.toHtml());
@@ -145,14 +144,5 @@
       });
     }
   };
-
-//protects against clickjacking
-  // if (self == top) {
-  // // Everything checks out, show the page.
-  //   document.documentElement.style.display = 'block';
-  // } else {
-  //   // Break out of the frame.
-  //   top.location = self.location;
-  // }
   module.Article.fetchAll = Article.fetchAll;
 })(window);
