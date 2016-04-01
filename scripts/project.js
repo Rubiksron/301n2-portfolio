@@ -1,6 +1,6 @@
-var articles = [];
+var projects = [];
 
-function Article (projects) {
+function Projects (projects) {
   this.title = projects.title;
   this.category = projects.category;
   this.author = projects.author;
@@ -9,16 +9,16 @@ function Article (projects) {
   this.body = projects.body;
 }
 
-Article.prototype.toHtml = function() {
-  var theTemplateScript = $('#articles-template').text();
+Projects.prototype.toHtml = function() {
+  var theTemplateScript = $('#projects-template').text();
   var theTemplate = Handlebars.compile(theTemplateScript);
   return theTemplate(this);
 };
 
 rawData.map(function(ele) {
-  articles.push(new Article(ele));
+  projects.push(new Projects(ele));
 });
 
-articles.map(function(a){
+projects.map(function(a){
   $('.projectLinksContainer').append(a.toHtml());
 });
