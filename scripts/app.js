@@ -144,5 +144,5 @@
       });
     }
   };
-  module.Article.fetchAll = Article.fetchAll;
+  module.Projects.fetchAll = Projects.fetchAll;
 })(window);
