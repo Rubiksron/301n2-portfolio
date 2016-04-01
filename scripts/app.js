@@ -120,26 +120,26 @@
     $('.footerTextDiv').show();
   });
 
-  Article.all = [];
+  Projects.all = [];
 
-  Article.loadAll = function(rawData) {
+  Projects.loadAll = function(rawData) {
 
     rawData.map(function(ele) {
-      Article.all.push(new Article(ele));
+      Projects.all.push(new Projects(ele));
     });
   };
-  Article.fetchAll = function() {
+  Projects.fetchAll = function() {
     if (localStorage.rawData) {
-      Article.loadAll(JSON.parse(localStorage.rawData));
-      Article.all.map(function(a){
-        $('article-projectLinksContainer.projects').append(a.toHtml());
+      Projects.loadAll(JSON.parse(localStorage.rawData));
+      Projects.all.map(function(a){
+        $('project-projectLinksContainer.projects').append(a.toHtml());
       });
     } else {
       $.getJSON('projects.json', function(data) {
-        Article.loadAll(data);
+        Projects.loadAll(data);
         localStorage.setItem('rawData', JSON.stringify(data));
-        Article.all.map(function(a){
-          $('article-projectLinksContainer.projects').append(a.toHtml());
+        Projects.all.map(function(a){
+          $('project-projectLinksContainer.projects').append(a.toHtml());
         });
       });
     }
