@@ -61,7 +61,13 @@
    transform: scale(1.1);
    color: grey;
  }
-  .footerTextDiv {
+ a {
+    text-decoration: none;
+ }
+ .navBarAnchor {
+    color: beige;
+ }
+  .footerText {
     text-align: center;
     width: 100%;
     color: #DBDBDB;
@@ -193,7 +199,7 @@
 
 
   @media (min-width: 413px) {
-    .button2div {
+    .closeContactsDiv {
       margin-left: 6em;
     }
     .name {
@@ -211,7 +217,7 @@
     .links {
       padding-top: 3.5em;
     }
-    .button2div {
+    .closeContactsDiv {
       margin-left: 12em;
     }
     .imageDiv {
@@ -251,7 +257,7 @@
     .name {
       font-size: 2.5em;
     }
-    .button2div {
+    .closeContactsDiv {
       margin-left: 17em;
     }
     .flexBox {
@@ -284,7 +290,7 @@
       margin-left: 10em;
       font-size: large;
     }
-    .button3div {
+    .closePortfolioDiv {
       width: 60%;
       margin-left: 11.5em;
     }

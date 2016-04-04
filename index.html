@@ -22,21 +22,19 @@
             </head>
             <body>
               <nav class="navContainer">
-                <div class="navBarItems" id="nav1">
-                  <h2>About</h2>
+                <div class="navBarItems" id="about">
+                  <h2><a href="/about" class="navBarAnchor">About</a></h2>
                 </div>
-                <div class="navBarItems" id="nav2">
-                  <h2>Contact</h2>
+                <div class="navBarItems" id="contact">
+                  <h2><a href="/contact" class="navBarAnchor">Contact</a></h2>
                 </div>
-                <div class="navBarItems" id=nav3>
-                  <h2>Portfolio</h2>
+                <div class="navBarItems" id="portfolio">
+                  <h2><a href="/portfolio" class="navBarAnchor">Portfolio</a></h2>
                 </div>
               </nav>
 
               <section class="imageDiv">
                 <div id="snow">
-                </div>
-                <div  class="makeItRain">
                 </div>
                 <div class="nameLinksContainer">
                   <div class="name"><h1>Ron Dunphy</h1>
@@ -58,12 +56,12 @@
                     </section>
 
                     <section  class="hiddenDiv2" hidden="true">
-                      <div class="button2div">
-                        <button class="button2">Close</button>
+                      <div class="closeContactsdiv">
+                        <button class="closeContacts">Close</button>
                       </div>
-                      <div class="divTitleContact">
-                        <div class="divTitleContactInside">
-                          <h1 class="divTitle">Contact:</h1>
+                      <div class="divTitleContacts">
+                        <div class="divTitleContactsInside">
+                          <h1 class="divTitle">Contacts:</h1>
                         </div>
                       </div>
                       <div class="contactsContainerContainer">
@@ -72,15 +70,14 @@
                           <h3><a class="contactsLinks" href="https://twitter.com/RonDunphy">Twitter</a></h3>
                           <h3><a class="contactsLinks" href="https://github.com/Rubiksron">GitHub</a></h3>
                           <h3><a class="contactsLinks" href="https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US">LinkedIn</a></h3>
-                          <h3><a class="contactsLinks" href="https://www.instagram.com/RonDunphy/">Instagram</a></h3>
                           <h3>Background Image Courtesy of: <a class="laurensLink" href="http://laurenlyonsphoto.com">laurenlyonsphoto.com</a></h3>
                         </div>
                       </div>
                     </section>
 
                     <section  class="hiddenDiv3" hidden="true">
-                      <div class="button3div">
-                        <button class="button3">Close</button>
+                      <div class="closePortfolioDiv">
+                        <button class="closePortfolio">Close</button>
                       </div>
                       <div class="divTitlePortfolio">
                         <h1 class="divTitle">Portfolio:</h1>
@@ -111,9 +108,11 @@
                   <h3 class="footerCopyright">Ron Dunphy &copy; 2016</h3>
                 </div>
               </footer>
+              <script src="scripts/page.js"></script>
               <script src="scripts/blogProjects.js"></script>
               <script src="scripts/project.js"></script>
               <script src="scripts/app.js" type="text/javascript"></script>
+              <script src="scripts/controller.js" charset="utf-8"></script>
               <script>
             Projects.fetchAll();
           </script>
