@@ -11,29 +11,29 @@
     aboutController();
   });
   $('.closeAboutMe').click(function(){
-    closeAboutMe();
+    closeAboutMeController();
   });
 
   $('#contacts').click(function(){
     contactsController();
   });
   $('.closeContacts').click(function(){
-    closeContacts();
+    closeContactsController();
   });
 
   $('#portfolio').click(function(){
     portfolioController();
   });
   $('.closePortfolio').click(function(){
-    closePortfolio();
+    closePortfolioController();
   });
 
   $('.videoCloseButton').click(function(){
-    videoCloseButton();
+    videoCloseButtonController();
   });
 
   $('.finale').click(function(){
-    finale();
+    finaleController();
   });
 
   Projects.all = [];
@@ -60,5 +60,6 @@
       });
     }
   };
+  module.Projects.loadAll = Projects.loadAll;
   module.Projects.fetchAll = Projects.fetchAll;
 })(window);
