@@ -1,34 +1,43 @@
 
 (function(module) {
-
   var aboutController = {};
-  aboutController.index = function() {
+  aboutController = function() {
     $('.navBarItems').hide();
     $('.links').hide();
     $('.name').hide();
     $('.footerText').hide();
-    $('.hiddenDiv1').fadeIn();
+    $('.hiddenDivAbout').fadeIn();
     $('#about').fadeIn();
   };
   module.aboutController = aboutController;
 })(window);
 
 (function(module) {
-
-  var contactController = {};
-  contactController.index = function() {
+  var contactsController = {};
+  contactsController = function() {
     $('.navBarItems').hide();
-    $('#contact').fadeIn();
+    $('.links').hide();
+    $('.name').hide();
+    $('#about').hide();
+    $('#portfolio').hide();
+    $('.footerText').hide();
+    $('#contacts').fadeIn();
+    $('.hiddenDivContacts').fadeIn();
   };
-  module.contactController = contactController;
+  module.contactsController = contactsController;
 })(window);
 
 (function(module) {
-
   var portfolioController = {};
-  portfolioController.index = function() {
+  portfolioController = function() {
+    $('.links').hide();
+    $('.name').hide();
+    $('#about').hide();
+    $('#contacts').hide();
+    $('.footerText').hide();
     $('.navBarItems').hide();
     $('#portfolio').fadeIn();
+    $('.hiddenDivPortfolio').fadeIn();
   };
   module.portfolioController = portfolioController;
 })(window);
