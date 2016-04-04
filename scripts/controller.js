@@ -13,8 +13,8 @@
 })(window);
 
 (function(module) {
-  var closeAboutMe = {};
-  closeAboutMe = function() {
+  var closeAboutMeController = {};
+  closeAboutMeController = function() {
     $('.hiddenDivAbout').hide();
     $('#contacts').show();
     $('#portfolio').show();
@@ -22,7 +22,7 @@
     $('.links').show();
     $('.footerText').show();
   };
-  module.closeAboutMe = closeAboutMe;
+  module.closeAboutMeController = closeAboutMeController;
 })(window);
 
 (function(module) {
@@ -42,8 +42,8 @@
 
 
 (function(module) {
-  var closeContacts = {};
-  closeContacts = function() {
+  var closeContactsController = {};
+  closeContactsController = function() {
     $('.hiddenDivContacts').hide();
     $('.name').show();
     $('.links').show();
@@ -51,7 +51,7 @@
     $('#portfolio').show();
     $('.footerText').show();
   };
-  module.closeContacts = closeContacts;
+  module.closeContactsController = closeContactsController;
 })(window);
 
 (function(module) {
@@ -70,8 +70,8 @@
 })(window);
 
 (function(module) {
-  var closePortfolio = {};
-  closePortfolio = function() {
+  var closePortfolioController = {};
+  closePortfolioController = function() {
     $('.hiddenDivPortfolio').hide();
     $('.name').show();
     $('.links').show();
@@ -79,13 +79,13 @@
     $('#contacts').show();
     $('.footerText').show();
   };
-  module.closePortfolio = closePortfolio;
+  module.closePortfolioController = closePortfolioController;
 })(window);
 
 
 (function(module) {
-  var videoCloseButton = {};
-  videoCloseButton = function() {
+  var videoCloseButtonController = {};
+  videoCloseButtonController = function() {
     $('iframe').hide();
     $('.videoCloseButton').hide();
     $('.navBarItems').show();
@@ -93,12 +93,12 @@
     $('.links').show();
     $('.footerText').show();
   };
-  module.videoCloseButton = videoCloseButton;
+  module.videoCloseButtonController = videoCloseButtonController;
 })(window);
 
 (function(module) {
-  var finale = {};
-  finale = function() {
+  var finaleController = {};
+  finaleController = function() {
     $('.hiddenDivPortfolio').hide();
     $('.navBarItems').hide();
     $('.iframe1').show();
@@ -106,5 +106,5 @@
     $('html, body').animate({scrollTop : 0},900);
     return false;
   };
-  module.finale = finale;
+  module.finaleController = finaleController;
 })(window);
