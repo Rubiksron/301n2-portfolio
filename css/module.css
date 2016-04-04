@@ -17,14 +17,14 @@
   background-color: #1B1B25;
   box-shadow: 0em .25em .25em .25em grey;
 }
-#finale:hover,
-#finale:focus,
-#finale:active {
+.finale:hover,
+.finale:focus,
+.finale:active {
   -webkit-transform: scale(2.5);
   transform: scale(2.5);
   box-shadow: 0em .25em .25em .25em grey;
 }
-#videoCloseButton {
+.videoCloseButton {
   width:7em;
   height: 3.75em;
   border-radius: .65em;
@@ -32,10 +32,8 @@
   color: #B4BBCC;
   background-color: #1B1B25;
 }
-#videoCloseButton,
-#videoButton2,
-#finale,
-#cards {
+.videoCloseButton,
+.finale {
   font-size: small;
   width:7em;
   height: 3.75em;
@@ -83,13 +81,12 @@
   color: #DBDBDB;
   box-shadow: 0em .50em .50em .50em grey;
 }
-
 .closeAboutMe:hover,
 .closeAboutMe:focus,
 .closeAboutMe:active,
-#videoCloseButton:hover,
-#videoCloseButton:focus,
-#videoCloseButton:active,
+.videoCloseButton:hover,
+.videoCloseButton:focus,
+.videoCloseButton:active,
 #videoButton2:hover,
 #videoButton2:focus,
 #videoButton2:active,
@@ -102,11 +99,20 @@
 .logo:hover,
 .logo:focus,
 .logo:active,
-#finale:hover,
-#finale:focus,
-#finale:active {
+.finale:hover,
+.finale:focus,
+.finale:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  color: #DBDBDB;
+  box-shadow: 0em .25em .25em .25em #1B1B25;
+}
+
+.navBarItems:hover,
+.navBarItems:focus,
+.navBarItems:active {
+  -webkit-transform: scale(.99);
+  transform: scale(.99);
   color: #DBDBDB;
   box-shadow: 0em .25em .25em .25em #1B1B25;
 }

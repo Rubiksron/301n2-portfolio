@@ -3,67 +3,37 @@
 (function(module) {
 
   $(function(){
-    $('#finale').click(function(){
-      $('.hiddenDivContacts').hide();
-      $('html, body').animate({scrollTop : 0},900);
-      return false;
-    });
-  });
-
-  $(function(){
     $('.iframe1').hide();
-    $('#videoCloseButton').hide();
-  });
-  $('#finale').click(function(){
-    $('.hiddenDivPortfolio').hide();
-    $('.navBarItems').hide();
-    $('.iframe1').show();
-    $('#videoCloseButton').show();
-  });
-
-  $('#videoCloseButton').click(function(){
-    $('iframe').hide();
-    $('#videoCloseButton').hide();
-    $('.navBarItems').show();
-    $('.name').show();
-    $('.links').show();
-    $('.footerText').show();
+    $('.videoCloseButton').hide();
   });
 
   $('#about').click(function(){
     aboutController();
   });
   $('.closeAboutMe').click(function(){
-    $('.hiddenDivAbout').hide();
-    $('#contacts').show();
-    $('#portfolio').show();
-    $('.name').show();
-    $('.links').show();
-    $('.footerText').show();
+    closeAboutMe();
   });
 
   $('#contacts').click(function(){
     contactsController();
   });
   $('.closeContacts').click(function(){
-    $('.hiddenDivContacts').hide();
-    $('.name').show();
-    $('.links').show();
-    $('#about').show();
-    $('#portfolio').show();
-    $('.footerText').show();
+    closeContacts();
   });
 
   $('#portfolio').click(function(){
     portfolioController();
   });
   $('.closePortfolio').click(function(){
-    $('.hiddenDivPortfolio').hide();
-    $('.name').show();
-    $('.links').show();
-    $('#about').show();
-    $('#contacts').show();
-    $('.footerText').show();
+    closePortfolio();
+  });
+
+  $('.videoCloseButton').click(function(){
+    videoCloseButton();
+  });
+
+  $('.finale').click(function(){
+    finale();
   });
 
   Projects.all = [];
