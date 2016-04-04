@@ -130,11 +130,11 @@
       align-items: center;
       max-width: 11em;
     }
-    .hiddenDiv1{
+    .hiddenDivAbout{
       max-width: 70%;
       margin-left: .25em;
     }
-    .hiddenDiv3 {
+    .hiddenDivContacts {
       margin-left: 0.25em;
     }
     .flexBox {
@@ -173,10 +173,10 @@
     .navBarItems {
       font-size: smaller;
     }
-    .hiddenDiv2 {
+    .hiddenDivContacts {
       margin-left: 1.75em;
     }
-    .hiddenDiv3 {
+    .hiddenDivContacts {
       text-align: center;
     }
     body{
@@ -227,7 +227,7 @@
     .name {
       font-size: xx-large;
     }
-    .hiddenDiv1 {
+    .hiddenDivAbout {
       width: 70%;
       height: 36em;
     }
@@ -267,16 +267,16 @@
       margin-right: 12.5em;
       margin-top: 2em;
     }
-    .hiddenDiv1 {
+    .hiddenDivAbout {
       width: 70%;
       height: 33em;
     }
-    .hiddenDiv2 {
+    .hiddenDivContacts {
       width: 70%;
       padding-top: 3em;
       padding-bottom: 5em;
     }
-    .hiddenDiv3 {
+    .hiddenDivContacts {
       text-align: center;
       background: rgba(255, 234, 255, 0);
       width: 87%;

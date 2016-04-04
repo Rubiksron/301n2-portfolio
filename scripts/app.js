@@ -4,7 +4,7 @@
 
   $(function(){
     $('#finale').click(function(){
-      $('.hiddenDiv3').hide();
+      $('.hiddenDivContacts').hide();
       $('html, body').animate({scrollTop : 0},900);
       return false;
     });
@@ -15,10 +15,10 @@
     $('#videoCloseButton').hide();
   });
   $('#finale').click(function(){
-    $('.hiddenDiv3').hide();
+    $('.hiddenDivPortfolio').hide();
+    $('.navBarItems').hide();
     $('.iframe1').show();
     $('#videoCloseButton').show();
-    $('#portfolio').hide();
   });
 
   $('#videoCloseButton').click(function(){
@@ -34,24 +34,19 @@
     aboutController();
   });
   $('.closeAboutMe').click(function(){
-    $('.hiddenDiv1').hide();
-    $('#contact').show();
+    $('.hiddenDivAbout').hide();
+    $('#contacts').show();
     $('#portfolio').show();
     $('.name').show();
     $('.links').show();
     $('.footerText').show();
   });
 
-  $('#contact').click(function(){
-    $('.links').hide();
-    $('.name').hide();
-    $('#about').hide();
-    $('#portfolio').hide();
-    $('.footerText').hide();
-    $('.hiddenDiv2').fadeIn();
+  $('#contacts').click(function(){
+    contactsController();
   });
   $('.closeContacts').click(function(){
-    $('.hiddenDiv2').hide();
+    $('.hiddenDivContacts').hide();
     $('.name').show();
     $('.links').show();
     $('#about').show();
@@ -60,19 +55,14 @@
   });
 
   $('#portfolio').click(function(){
-    $('.links').hide();
-    $('.name').hide();
-    $('#about').hide();
-    $('#contact').hide();
-    $('.footerText').hide();
-    $('.hiddenDiv3').fadeIn();
+    portfolioController();
   });
   $('.closePortfolio').click(function(){
-    $('.hiddenDiv3').hide();
+    $('.hiddenDivPortfolio').hide();
     $('.name').show();
     $('.links').show();
     $('#about').show();
-    $('#contact').show();
+    $('#contacts').show();
     $('.footerText').show();
   });
 
