@@ -23,14 +23,14 @@
 
   var contactsController = {};
   contactsController.index = function() {
+    $('#contacts').fadeIn();
+    $('.hiddenDivContacts').fadeIn();
     $('.navBarItems').hide();
     $('.links').hide();
     $('.name').hide();
     $('#about').hide();
     $('#portfolio').hide();
     $('.footerText').hide();
-    $('#contacts').fadeIn();
-    $('.hiddenDivContacts').fadeIn();
   };
   contactsController.close = function() {
     $('.hiddenDivContacts').hide();

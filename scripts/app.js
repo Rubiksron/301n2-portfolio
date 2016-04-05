@@ -10,7 +10,7 @@
   // $('#about').click(function(){
   //   aboutController.index();
   // });
-
+  //
   // $('.closeAboutMe').click(function(){
   //   aboutController.close();
   // });
@@ -20,9 +20,9 @@
   // });
   //
   // $('.closeContacts').click(function(){
-  //     contactsController.close();
+  //   contactsController.close();
   // });
-
+  //
   // $('#portfolio').click(function(){
   //   portfolioController.index();
   // });
