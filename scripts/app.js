@@ -7,26 +7,29 @@
     $('.videoCloseButton').hide();
   });
 
-  $('#about').click(function(){
-    aboutController();
-  });
-  $('.closeAboutMe').click(function(){
-    closeAboutMeController();
-  });
+  // $('#about').click(function(){
+  //   aboutController.index();
+  // });
 
-  $('#contacts').click(function(){
-    contactsController();
-  });
-  $('.closeContacts').click(function(){
-    closeContactsController();
-  });
+  // $('.closeAboutMe').click(function(){
+  //   aboutController.close();
+  // });
+  //
+  // $('#contacts').click(function(){
+  //   contactsController.index();
+  // });
+  //
+  // $('.closeContacts').click(function(){
+  //     contactsController.close();
+  // });
 
-  $('#portfolio').click(function(){
-    portfolioController();
-  });
-  $('.closePortfolio').click(function(){
-    closePortfolioController();
-  });
+  // $('#portfolio').click(function(){
+  //   portfolioController.index();
+  // });
+  //
+  // $('.closePortfolio').click(function(){
+  //   portfolioController.close();
+  // });
 
   $('.videoCloseButton').click(function(){
     videoCloseButtonController();
@@ -39,11 +42,11 @@
   Projects.all = [];
 
   Projects.loadAll = function(rawData) {
-
     rawData.map(function(ele) {
       Projects.all.push(new Projects(ele));
     });
   };
+
   Projects.fetchAll = function() {
     if (localStorage.rawData) {
       Projects.loadAll(JSON.parse(localStorage.rawData));
