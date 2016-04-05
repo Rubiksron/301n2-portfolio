@@ -1,7 +1,9 @@
 'use strict';
+
 (function(module) {
+
   var aboutController = {};
-  aboutController = function() {
+  aboutController.index = function() {
     $('.navBarItems').hide();
     $('.links').hide();
     $('.name').hide();
@@ -9,12 +11,7 @@
     $('.hiddenDivAbout').fadeIn();
     $('#about').fadeIn();
   };
-  module.aboutController = aboutController;
-})(window);
-
-(function(module) {
-  var closeAboutMeController = {};
-  closeAboutMeController = function() {
+  aboutController.close = function() {
     $('.hiddenDivAbout').hide();
     $('#contacts').show();
     $('#portfolio').show();
@@ -22,28 +19,20 @@
     $('.links').show();
     $('.footerText').show();
   };
-  module.closeAboutMeController = closeAboutMeController;
-})(window);
+  module.aboutController = aboutController;
 
-(function(module) {
   var contactsController = {};
-  contactsController = function() {
+  contactsController.index = function() {
+    $('#contacts').fadeIn();
+    $('.hiddenDivContacts').fadeIn();
     $('.navBarItems').hide();
     $('.links').hide();
     $('.name').hide();
     $('#about').hide();
     $('#portfolio').hide();
     $('.footerText').hide();
-    $('#contacts').fadeIn();
-    $('.hiddenDivContacts').fadeIn();
   };
-  module.contactsController = contactsController;
-})(window);
-
-
-(function(module) {
-  var closeContactsController = {};
-  closeContactsController = function() {
+  contactsController.close = function() {
     $('.hiddenDivContacts').hide();
     $('.name').show();
     $('.links').show();
@@ -51,12 +40,10 @@
     $('#portfolio').show();
     $('.footerText').show();
   };
-  module.closeContactsController = closeContactsController;
-})(window);
+  module.contactsController = contactsController;
 
-(function(module) {
   var portfolioController = {};
-  portfolioController = function() {
+  portfolioController.index = function() {
     $('.links').hide();
     $('.name').hide();
     $('#about').hide();
@@ -66,12 +53,7 @@
     $('#portfolio').fadeIn();
     $('.hiddenDivPortfolio').fadeIn();
   };
-  module.portfolioController = portfolioController;
-})(window);
-
-(function(module) {
-  var closePortfolioController = {};
-  closePortfolioController = function() {
+  portfolioController.close = function() {
     $('.hiddenDivPortfolio').hide();
     $('.name').show();
     $('.links').show();
@@ -79,11 +61,8 @@
     $('#contacts').show();
     $('.footerText').show();
   };
-  module.closePortfolioController = closePortfolioController;
-})(window);
+  module.portfolioController = portfolioController;
 
-
-(function(module) {
   var videoCloseButtonController = {};
   videoCloseButtonController = function() {
     $('iframe').hide();
@@ -94,9 +73,7 @@
     $('.footerText').show();
   };
   module.videoCloseButtonController = videoCloseButtonController;
-})(window);
 
-(function(module) {
   var finaleController = {};
   finaleController = function() {
     $('.hiddenDivPortfolio').hide();
