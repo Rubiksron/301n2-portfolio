@@ -7,30 +7,6 @@
     $('.videoCloseButton').hide();
   });
 
-  // $('#about').click(function(){
-  //   aboutController.index();
-  // });
-  //
-  // $('.closeAboutMe').click(function(){
-  //   aboutController.close();
-  // });
-  //
-  // $('#contacts').click(function(){
-  //   contactsController.index();
-  // });
-  //
-  // $('.closeContacts').click(function(){
-  //   contactsController.close();
-  // });
-  //
-  // $('#portfolio').click(function(){
-  //   portfolioController.index();
-  // });
-  //
-  // $('.closePortfolio').click(function(){
-  //   portfolioController.close();
-  // });
-
   $('.videoCloseButton').click(function(){
     videoCloseButtonController();
   });
@@ -41,7 +17,7 @@
 
   Projects.all = [];
 
-  Projects.loadAll = function(rawData) {
+  Projects.loadAll = function(ele) {
     rawData.map(function(ele) {
       Projects.all.push(new Projects(ele));
     });

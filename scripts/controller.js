@@ -10,6 +10,9 @@
     $('.footerText').hide();
     $('.hiddenDivAbout').fadeIn();
     $('#about').fadeIn();
+    $('.closeAboutMe').click(function(){
+      aboutController.close();
+    });
   };
   aboutController.close = function() {
     $('.hiddenDivAbout').hide();
@@ -31,13 +34,15 @@
     $('#about').hide();
     $('#portfolio').hide();
     $('.footerText').hide();
+    $('.closeContacts').click(function(){
+      contactsController.close();
+    });
   };
   contactsController.close = function() {
     $('.hiddenDivContacts').hide();
     $('.name').show();
     $('.links').show();
-    $('#about').show();
-    $('#portfolio').show();
+    $('.navBarItems').show();
     $('.footerText').show();
   };
   module.contactsController = contactsController;
@@ -52,13 +57,15 @@
     $('.navBarItems').hide();
     $('#portfolio').fadeIn();
     $('.hiddenDivPortfolio').fadeIn();
+    $('.closePortfolio').click(function(){
+      portfolioController.close();
+    });
   };
   portfolioController.close = function() {
     $('.hiddenDivPortfolio').hide();
     $('.name').show();
     $('.links').show();
-    $('#about').show();
-    $('#contacts').show();
+    $('.navBarItems').show();
     $('.footerText').show();
   };
   module.portfolioController = portfolioController;
