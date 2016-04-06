@@ -108,11 +108,11 @@
   box-shadow: 0em .25em .25em .25em #1B1B25;
 }
 
-.navBarItems:hover,
+/*.navBarItems:hover,
 .navBarItems:focus,
 .navBarItems:active {
   -webkit-transform: scale(.99);
   transform: scale(.99);
   color: #DBDBDB;
   box-shadow: 0em .25em .25em .25em #1B1B25;
-}
+}*/
