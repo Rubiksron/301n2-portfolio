@@ -16,8 +16,7 @@
   };
   aboutController.close = function() {
     $('.hiddenDivAbout').hide();
-    $('#contacts').show();
-    $('#portfolio').show();
+    $('.navBarItems').show();
     $('.name').show();
     $('.links').show();
     $('.footerText').show();
