@@ -322,3 +322,9 @@
       box-shadow: 0em .50em .50em .50em grey;
     }
   }
+  @media (min-width: 1290px){
+  body {
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+}
