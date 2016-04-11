@@ -323,9 +323,17 @@
     }
   }
   @media (min-width: 1290px){
+<<<<<<< HEAD
     body {
       padding-left: 8em;
       padding-right: 8em;
 
     }
   }
+=======
+  body {
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+}
+>>>>>>> 7b054ef12766544f79513720dcd41d07eb5fb13f
