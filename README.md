@@ -1,3 +1,3 @@
 # 301n2-portfolio
 
-DUDE THAT THING YOU DO WITH THE CUBES AND THE POGO STICK OMG OMG WTF!
+This is a portfolio to highlight my programming skills.
