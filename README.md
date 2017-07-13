@@ -1,2 +1,3 @@
 # 301n2-portfolio
-This will be a portfolio to highlight my strong points as a programmer.
+
+DUDE THAT THING YOU DO WITH THE CUBES AND THE POGO STICK OMG OMG WTF!
