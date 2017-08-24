@@ -17,9 +17,9 @@
 
   Projects.all = [];
 
-  Projects.loadAll = function(ele) {
-    rawData.map(function(ele) {
-      Projects.all.push(new Projects(ele));
+  Projects.loadAll = function(project) {
+    rawData.map(function(project) {
+      Projects.all.push(new Projects(project));
     });
   };
 
