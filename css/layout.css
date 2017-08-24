@@ -72,29 +72,29 @@
   background: #rgba(255, 234, 255, 0);
   box-shadow: 0em .75em .75em .75em #1B1B25;
 }
-    .h4AboutMe {
-      line-height: 1.25em;
-      font-size: large;
-      text-align: left;
-      border-radius: .65em;
-      margin-left: .25em;
-      margin-right: .25em;
-      padding: 1em;
-      margin-top: .65em;
-      background: #E1EAFF;
-      box-shadow: 0em .50em .50em .50em #1B1B25;
-    }
-    .divTitleAboutMe {
-      text-align: center;
-      border-radius: .65em;
-      margin-left: .65em;
-      margin-right: .65em;
-      margin-top: .65em;
-      margin-bottom: 1.25em;
-      padding: .25em;
-      background: #E1EAFF;
-      box-shadow: 0em .50em .50em .50em #1B1B25;
-    }
+.h4AboutMe {
+  line-height: 1.25em;
+  font-size: large;
+  text-align: left;
+  border-radius: .65em;
+  margin-left: .25em;
+  margin-right: .25em;
+  padding: 1em;
+  margin-top: .65em;
+  background: #E1EAFF;
+  box-shadow: 0em .50em .50em .50em #1B1B25;
+}
+.divTitleAboutMe {
+  text-align: center;
+  border-radius: .65em;
+  margin-left: .65em;
+  margin-right: .65em;
+  margin-top: .65em;
+  margin-bottom: 1.25em;
+  padding: .25em;
+  background: #E1EAFF;
+  box-shadow: 0em .50em .50em .50em #1B1B25;
+}
 .hiddenDivContacts {
   text-align: center;
   background: rgba(255, 234, 255, 0);
@@ -104,34 +104,34 @@
   padding-bottom: 1em;
   box-shadow: 0em .75em .75em .75em #1B1B25;
 }
-    .divTitleContacts {
-      /*background-color: #E1EAFF;*/
-      border-radius: 1em;
-      margin-left: 1em;
-      margin-right: 1em;
-    }
-    .divTitleContactsInside {
-      text-align: center;
-      padding: .5em;
-      margin-right: 2.5em;
-      margin-left: 2.5em;
-      margin-bottom: 1.25em;
-      margin-top: 1.25em;
-      border-radius: 1em;
-      background-color: #E1EAFF;
-      box-shadow: 0em .50em .50em .50em #1B1B25;
-    }
-    .contactsContainer {
-      text-align: center;
-      padding: .5em;
-      border-radius: 1em;
-      background-color: #E1EAFF;
-      margin-top: 1.25em;
-      margin-bottom: 1.25em;
-      margin-left: 1.25em;
-      margin-right: 1.25em;
-      box-shadow: 0em .50em .50em .50em #1B1B25;
-    }
+.divTitleContacts {
+  /*background-color: #E1EAFF;*/
+  border-radius: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.divTitleContactsInside {
+  text-align: center;
+  padding: .5em;
+  margin-right: 2.5em;
+  margin-left: 2.5em;
+  margin-bottom: 1.25em;
+  margin-top: 1.25em;
+  border-radius: 1em;
+  background-color: #E1EAFF;
+  box-shadow: 0em .50em .50em .50em #1B1B25;
+}
+.contactsContainer {
+  text-align: center;
+  padding: .5em;
+  border-radius: 1em;
+  background-color: #E1EAFF;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
+  box-shadow: 0em .50em .50em .50em #1B1B25;
+}
 .hiddenDivPortfolio {
   text-align: center;
   background: rgba(255, 234, 255, 0);
@@ -141,50 +141,50 @@
   padding: 1em;
   box-shadow: 0em .75em .75em .75em #1B1B25;
 }
-    .h3DivPortfolio {
-      justify-content: space-around;
-      padding: 1.5em;
-      border-radius: .65em;
-      background-color: #E1EAFF;
-      margin-bottom: 1.25em;
-      box-shadow: 0em .50em .50em .50em #1B1B25;
-    }
-    .divTitlePortfolio {
-      display: flex;
-      justify-content: center;
-      padding: .5em;
-      border-radius: .65em;
-      background-color: #E1EAFF;
-      margin-bottom: 1.25em;
-      margin-left: 1.25em;
-      margin-right: 1.25em;
-      box-shadow: 0em .50em .50em .50em #1B1B25;
-    }
-    .pastLifeContainer {
-      margin-top: 1.25em;
-      border-radius: .65em;
-      display: flex;
-      justify-content: space-around;;
-      align-items: center;
-      margin-top: 1.25em;
-      margin-bottom: 1.25em;
-      padding: .65em;
-      background-color: #B4BBCC;
-      box-shadow: 0em .50em .50em .50em #1B1B25;
-    }
-    .projectLinksContainer {
-      border-radius: .65em;
-      margin-bottom: 1.5em;
-      background-color: #E1EAFF;
-      box-shadow: 0em .50em .50em .50em #1B1B25;
-    }
-    .projectLinksContainer img {
-      border-radius: .5em;
-      margin: 2.4em;
-      width: 11em;
-      height: 9em;
-      box-shadow: 0em .50em .50em .50em grey;
-    }
+.h3DivPortfolio {
+  justify-content: space-around;
+  padding: 1.5em;
+  border-radius: .65em;
+  background-color: #E1EAFF;
+  margin-bottom: 1.25em;
+  box-shadow: 0em .50em .50em .50em #1B1B25;
+}
+.divTitlePortfolio {
+  display: flex;
+  justify-content: center;
+  padding: .5em;
+  border-radius: .65em;
+  background-color: #E1EAFF;
+  margin-bottom: 1.25em;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
+  box-shadow: 0em .50em .50em .50em #1B1B25;
+}
+.pastLifeContainer {
+  margin-top: 1.25em;
+  border-radius: .65em;
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  padding: .65em;
+  background-color: #B4BBCC;
+  box-shadow: 0em .50em .50em .50em #1B1B25;
+}
+.projectLinksContainer {
+  border-radius: .65em;
+  margin-bottom: 1.5em;
+  background-color: #E1EAFF;
+  box-shadow: 0em .50em .50em .50em #1B1B25;
+}
+.projectLinksContainer img {
+  border-radius: .5em;
+  margin: 2.4em;
+  width: 11em;
+  height: 9em;
+  box-shadow: 0em .50em .50em .50em grey;
+}
 #gitLogo {
   box-shadow: 0em .25em .25em .25em #1B1B25;
   margin: .25em;
